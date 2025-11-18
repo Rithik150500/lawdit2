@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  lawdit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lawdit:latest
+    container_name: lawdit
+
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - GOOGLE_CREDENTIALS_PATH=/app/credentials/google-credentials.json
+      - GOOGLE_DRIVE_FOLDER_ID=${GOOGLE_DRIVE_FOLDER_ID}
+      - WORKING_DIR=/app/data_room_processing
+      - OUTPUT_DIR=/app/outputs
+      - PDF_DPI=${PDF_DPI:-200}
+      - MAX_PARALLEL_PROCESSES=${MAX_PARALLEL_PROCESSES:-4}
+
+    volumes:
+      # Mount credentials (read-only)
+      - ./credentials:/app/credentials:ro
+
+      # Mount working directories
+      - ./data_room_processing:/app/data_room_processing
+      - ./outputs:/app/outputs
+
+      # Optional: Mount source code for development
+      # - ./src/lawdit:/app/src/lawdit
+
+    networks:
+      - lawdit-network
+
+    # Override command for different operations
+    # command: ["lawdit-index", "--credentials", "/app/credentials/google-credentials.json", "--folder-id", "${GOOGLE_DRIVE_FOLDER_ID}"]
+
+    # Keep container running for interactive use
+    stdin_open: true
+    tty: true
+
+    restart: unless-stopped
+
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
+        reservations:
+          cpus: '1.0'
+          memory: 2G
+
+  # Optional: Add a web UI service in the future
+  # lawdit-web:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.web
+  #   ports:
+  #     - "8000:8000"
+  #   depends_on:
+  #     - lawdit
+  #   networks:
+  #     - lawdit-network
+
+networks:
+  lawdit-network:
+    driver: bridge
+
+volumes:
+  data_room_processing:
+  outputs:
