@@ -6,10 +6,13 @@ Tools for accessing indexed documents and their content.
 
 import base64
 import json
+import os
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Literal
 
+import requests
 from langchain_core.tools import tool
+from tavily import TavilyClient
 
 
 class DocumentStore:
@@ -220,7 +223,11 @@ def get_document_pages(doc_id: str, page_nums: List[int]) -> str:
 
 
 @tool
-def internet_search(query: str, max_results: int = 5) -> str:
+def internet_search(
+    query: str,
+    max_results: int = 5,
+    topic: Literal["general", "news", "finance"] = "general",
+) -> str:
     """Search the internet for legal precedents, regulations, or context.
 
     Use this to research legal standards, regulatory requirements, case law,
@@ -229,12 +236,45 @@ def internet_search(query: str, max_results: int = 5) -> str:
     Args:
         query: Search query focused on legal/regulatory topics
         max_results: Maximum number of results to return (default 5)
+        topic: Topic filter for search results (general, news, or finance)
 
     Returns:
         Search results with titles, snippets, and URLs
     """
-    # Placeholder implementation - integrate with actual search API
-    return f"Search results for: {query}\n\n[Search functionality to be implemented]"
+    try:
+        tavily_api_key = os.environ.get("TAVILY_API_KEY")
+        if not tavily_api_key:
+            return "Error: TAVILY_API_KEY environment variable not set. Please configure your Tavily API key."
+
+        tavily_client = TavilyClient(api_key=tavily_api_key)
+
+        # Perform the search
+        search_results = tavily_client.search(
+            query=query,
+            max_results=max_results,
+            topic=topic,
+            include_raw_content=False,
+        )
+
+        # Format the results
+        formatted_results = [f"Search results for: {query}\n"]
+
+        if "results" in search_results:
+            for idx, result in enumerate(search_results["results"], start=1):
+                title = result.get("title", "No title")
+                url = result.get("url", "No URL")
+                content = result.get("content", "No content available")
+
+                formatted_results.append(
+                    f"\n{idx}. {title}\n   URL: {url}\n   Summary: {content}\n"
+                )
+        else:
+            formatted_results.append("\nNo results found.")
+
+        return "\n".join(formatted_results)
+
+    except Exception as e:
+        return f"Error performing search: {str(e)}"
 
 
 @tool
@@ -250,5 +290,56 @@ def web_fetch(url: str) -> str:
     Returns:
         Extracted text content from the web page
     """
-    # Placeholder implementation - integrate with actual web fetch
-    return f"Content from {url}\n\n[Web fetch functionality to be implemented]"
+    try:
+        # Set a reasonable timeout and user agent
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+
+        # Fetch the web page
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+
+        # Try to use Tavily's extract endpoint for better content extraction
+        tavily_api_key = os.environ.get("TAVILY_API_KEY")
+        if tavily_api_key:
+            try:
+                tavily_client = TavilyClient(api_key=tavily_api_key)
+                extract_result = tavily_client.extract(urls=[url])
+
+                if extract_result and "results" in extract_result and extract_result["results"]:
+                    content = extract_result["results"][0].get("raw_content", "")
+                    if content:
+                        return f"Content from {url}:\n\n{content}"
+            except Exception:
+                # Fall back to basic extraction if Tavily extract fails
+                pass
+
+        # Basic fallback: return raw HTML with a note
+        from html import unescape
+        import re
+
+        # Remove script and style elements
+        text = re.sub(r"<script[^>]*>.*?</script>", "", response.text, flags=re.DOTALL)
+        text = re.sub(r"<style[^>]*>.*?</style>", "", text, flags=re.DOTALL)
+
+        # Remove HTML tags
+        text = re.sub(r"<[^>]+>", " ", text)
+
+        # Clean up whitespace
+        text = re.sub(r"\s+", " ", text)
+        text = unescape(text).strip()
+
+        # Limit length to avoid overwhelming context
+        max_length = 10000
+        if len(text) > max_length:
+            text = text[:max_length] + "\n\n[Content truncated due to length...]"
+
+        return f"Content from {url}:\n\n{text}"
+
+    except requests.exceptions.Timeout:
+        return f"Error: Request to {url} timed out after 10 seconds."
+    except requests.exceptions.RequestException as e:
+        return f"Error fetching {url}: {str(e)}"
+    except Exception as e:
+        return f"Error processing content from {url}: {str(e)}"

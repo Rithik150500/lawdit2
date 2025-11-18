@@ -47,7 +47,7 @@ class Settings(BaseSettings):
 
     # Model Configuration
     vision_model: str = Field(
-        "gpt-4-vision-preview", description="Model to use for vision tasks"
+        "gpt-5-nano", description="Model to use for vision tasks"
     )
     analysis_model: str = Field(
         "claude-sonnet-4-5-20250929", description="Model to use for analysis tasks"

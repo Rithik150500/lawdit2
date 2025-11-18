@@ -28,7 +28,7 @@ class VisionSummarizer:
                     OPENAI_API_KEY environment variable.
         """
         self.client = OpenAI(api_key=api_key or os.environ.get("OPENAI_API_KEY"))
-        self.model = "gpt-4-vision-preview"  # Cost-optimized model for vision tasks
+        self.model = "gpt-5-nano"  # Cost-optimized model for vision tasks
 
     def summarize_page_image(self, image_path: str, page_number: int) -> str:
         """Analyze a page image and generate a summary description.
@@ -141,7 +141,7 @@ significance without reading every page."""
 
             # Call OpenAI API for document-level summarization
             response = self.client.chat.completions.create(
-                model="gpt-4-turbo-preview",
+                model="gpt-5-nano",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=500,
             )
