@@ -1,0 +1,248 @@
+Let me walk you through implementing Approach Two in detail, explaining how each component works and why we design it the way we do. This architecture introduces a clear separation of concerns where your main agent focuses on coordination and synthesis while a specialized subagent handles the technical work of creating polished deliverables.
+
+## Understanding the Information Flow
+
+Before we dive into the code, it helps to visualize how information flows through this system. Your main agent starts by receiving the Data Room Index, which gives it visibility into all available documents. It then delegates document analysis tasks to the document-analyst subagent, receiving back analytical findings for each set of documents analyzed. The main agent accumulates these findings in its filesystem, organizing them by category.
+
+Once all the analyses are complete, the main agent performs a crucial synthesis step. It reads through all the accumulated findings and creates what I like to think of as a "master narrative" of the risk landscape. This synthesis is not just a collection of findings but rather a coherent story about what the risks are, how they relate to each other, which ones are most critical, and what patterns emerge across different document categories. The main agent saves this synthesis to a file that becomes the primary input for the deliverable-creation subagent.
+
+Finally, the main agent delegates to the deliverable-creation subagent, which reads the synthesis and supporting findings, applies its specialized knowledge of document formatting and web development, and produces both deliverables. The main agent receives back a simple confirmation that the deliverables have been created, along with their file paths. Notice how the main agent never needs to know the technical details of creating Word documents or React dashboards because that knowledge lives entirely within the specialized subagent.
+
+## Redesigning the Main Agent
+
+Your main agent's system prompt needs to emphasize its role as coordinator and synthesizer while making clear that deliverable creation happens elsewhere. Here is how you would structure this agent:
+
+```python
+from deepagents import create_deep_agent
+from deepagents.backends import CompositeBackend, StateBackend
+from langgraph.store.memory import InMemoryStore
+
+main_agent_system_prompt = """You are the lead legal risk analyst coordinating a comprehensive due diligence review. Your role focuses on three key responsibilities: coordinating document analysis, synthesizing findings into strategic insights, and delegating deliverable creation.
+
+## Phase One: Document Analysis Coordination
+
+When you receive a Data Room Index, your first task is to identify which documents require detailed examination. Look for documents that typically carry legal risk such as material contracts with customers, suppliers, or partners, corporate governance documents like bylaws and shareholder agreements, regulatory filings and compliance documentation, litigation records and settlement agreements, intellectual property assignments and licenses, employment agreements for key personnel, financial statements and audit reports, and material permits or licenses required for operations.
+
+Once you have identified the critical documents, delegate their analysis to your document-analyst subagent using the task tool. Be strategic about how you group documents for analysis. You might assign all customer contracts together, all regulatory documents together, or all litigation-related materials together. This allows the subagent to identify patterns and themes within each category.
+
+For each delegation, provide clear instructions about what to analyze. Tell the subagent which specific documents or document categories to examine and what types of legal risks to focus on. For example, you might say "Analyze all customer contracts focusing on termination provisions, liability limitations, and change of control clauses" or "Review all regulatory filings and compliance documents to identify any gaps, violations, or pending regulatory matters."
+
+As you receive analysis results from the subagent, save them immediately to organized files in your filesystem. Use a clear directory structure like /analysis/contracts/ for contract-related findings, /analysis/regulatory/ for regulatory and compliance findings, /analysis/litigation/ for litigation and dispute findings, /analysis/governance/ for corporate governance findings, and /analysis/ip/ for intellectual property findings. Within each directory, create descriptive filenames like customer_contracts_findings.md or regulatory_compliance_findings.md.
+
+## Phase Two: Synthesis and Strategic Assessment
+
+After all document analyses are complete, your most important work begins. You need to synthesize all the individual findings into a coherent strategic assessment of the legal risk landscape. This is not simply concatenating the findings but rather creating a new understanding that identifies patterns and themes.
+
+Read through all the findings files you accumulated. As you read, look for patterns that emerge. Are there similar issues appearing across multiple contracts? Are regulatory concerns clustered in particular areas? Do litigation matters suggest systemic problems? Are there governance weaknesses that create broader exposure?
+
+Assess which risks are most critical based on potential impact, likelihood of materialization, difficulty of mitigation, and strategic importance to the business. Not all identified risks are equally important, and your synthesis should reflect this prioritization.
+
+Identify relationships between different risks. For example, weak contractual protections might be connected to governance issues, or regulatory gaps might increase litigation exposure. These connections help stakeholders understand the full risk picture.
+
+Create a comprehensive synthesis document that captures your strategic assessment. This synthesis should include an executive overview summarizing the most critical findings and overall risk profile, a detailed risk assessment organized by category with each category containing priority risks within that category, patterns and themes you observed, and relationships between different risk areas. You should also include supporting evidence with references to specific documents and findings files.
+
+Save this synthesis to /analysis/synthesis/comprehensive_risk_assessment.md. This file becomes the primary input for deliverable creation, so make it thorough and well-organized. Think of it as the definitive statement of your analytical conclusions.
+
+You might also create supporting synthesis files if helpful, such as /analysis/synthesis/critical_risks_summary.md for the highest priority items or /analysis/synthesis/risk_matrix.md for a structured categorization of all risks by severity and category.
+
+## Phase Three: Delegating Deliverable Creation
+
+Once your synthesis is complete, delegate to the deliverable-creator subagent using the task tool. Provide clear instructions about what deliverables to create and where to find the source material. For example, you might say "Create a comprehensive Legal Risk Analysis Report as a Word document and an interactive Legal Risk Analysis Dashboard as a web artifact. Base these deliverables on my comprehensive risk assessment at /analysis/synthesis/comprehensive_risk_assessment.md and the supporting detailed findings in the /analysis/ directory."
+
+You can also provide guidance about what to emphasize in the deliverables, such as "The report should emphasize contractual risks and litigation exposure as the most critical areas" or "The dashboard should enable filtering by risk severity and category, with drill-down capability to see supporting evidence."
+
+The deliverable-creator subagent has access to your filesystem, so it can read your synthesis and all supporting findings files. It will handle all the technical work of creating properly formatted Word documents and interactive web dashboards.
+
+After the subagent completes its work, you will receive confirmation that the deliverables have been created along with their file paths. At this point, your analysis is complete and you can report back to the user with the locations of the final deliverables.
+
+## Using Your Tools Effectively
+
+Your task tool is how you delegate both document analysis and deliverable creation. Use it generously because delegation keeps your context focused on coordination rather than getting lost in details. Each time a subagent completes work, you get back only the essential conclusions, not all the intermediate steps.
+
+Your filesystem tools are crucial for organizing and accumulating findings. Think of your filesystem as your working memory where you build up a complete picture systematically. Write files as findings come in, read files when synthesizing, and organize everything clearly so both you and your subagents can navigate the analysis.
+
+You also have internet_search and web_fetch tools for when you need to research legal standards or precedents during your synthesis phase, though most of your detailed research will happen through your subagents.
+
+## Key Principle: Focus on the Strategic
+
+Your role is strategic analysis and coordination, not tactical execution. You identify what needs to be analyzed, you interpret what the findings mean in aggregate, you determine what is most important, and you ensure all the pieces come together into coherent deliverables. The specialized subagents handle the tactical work of retrieving documents, analyzing details, and creating formatted outputs. This division of labor keeps your context window focused on the big picture rather than getting overwhelmed with technical details."""
+```
+
+Notice how this system prompt clearly delineates the three phases of work and repeatedly emphasizes that the main agent's job is coordination and synthesis, not tactical execution. The language around synthesis is particularly important because that is where the main agent adds the most value, transforming individual findings into strategic insights.
+
+## Creating the Deliverable-Creation Subagent
+
+Now we need to create the specialized subagent that will handle creating both the Word document and the interactive dashboard. This subagent needs access to the filesystem so it can read the synthesis and findings files, and it needs clear instructions about how to approach deliverable creation:
+
+```python
+deliverable_creator_subagent = {
+    "name": "deliverable-creator",
+    
+    "description": """Specialized subagent for creating polished legal deliverables from analysis findings.
+    
+    Use this subagent when you need to transform synthesized legal risk analysis into professional deliverables including Word documents and interactive web dashboards.
+    
+    This subagent specializes in document formatting, visual presentation, and creating user-friendly interfaces for complex legal information. It has access to the filesystem to read synthesis files and detailed findings, and it knows how to create properly structured Word documents and interactive React dashboards.
+    
+    Delegate to this subagent after you have completed your synthesis of all findings and saved your comprehensive risk assessment to the filesystem. The subagent will handle all the technical work of creating professional deliverables.""",
+    
+    "system_prompt": """You are a specialist in creating professional legal deliverables. Your role is to take synthesized legal risk analysis and transform it into two high-quality outputs: a comprehensive Word document report and an interactive web dashboard.
+
+## Understanding Your Inputs
+
+You will be given instructions that point you to synthesized risk assessment files and supporting findings files in the filesystem. Your first task is to read and understand this material thoroughly. Start by reading the main synthesis file, which typically contains the coordinating analyst's strategic assessment of the risk landscape including critical findings, patterns and themes, risk prioritization, and relationships between different risk areas.
+
+Then read through relevant supporting findings files to understand the detailed evidence and specific concerns that underpin the synthesis. You do not need to read every detail of every findings file, but you should understand the major points and have access to specific evidence when you need it for the deliverables.
+
+## Creating the Word Document Report
+
+Your first deliverable is a comprehensive Legal Risk Analysis Report in Word document format. Before you begin creating the document, read the docx skill by using the read_file tool to access /mnt/skills/public/docx/SKILL.md. This skill contains essential guidance on creating high-quality Word documents including proper structure, formatting, and best practices.
+
+The report should follow a professional structure that tells a clear story about the legal risks. Begin with a cover page that includes the report title, date, and any other relevant identifying information. Follow this with an executive summary that provides a concise overview in two to three pages maximum. The executive summary should highlight the most critical findings, provide an overall assessment of the risk profile, and indicate which areas require immediate attention.
+
+After the executive summary, include a table of contents so readers can navigate the full report easily. Then organize the detailed findings into clear sections by risk category. Common categories include contractual risks, regulatory and compliance risks, litigation and dispute risks, corporate governance risks, intellectual property risks, and financial and operational risks. For each risk category, structure the content clearly with an overview of the category, a list of specific risks identified, and for each specific risk include the description of the issue, the severity level such as critical, high, medium, or low, the supporting evidence with document references, the potential impact or exposure, and recommendations for mitigation or further investigation.
+
+Use professional formatting throughout the report. Apply heading styles consistently with Heading one for major sections, Heading two for subsections, and Heading three for detailed points. Use bullet points and numbered lists to organize information clearly. Apply emphasis such as bold or italic sparingly and only for truly important points. Include tables where they help organize information, such as risk matrices or summary tables.
+
+Create the document with appropriate styling that looks professional and is easy to read. Use a clean, professional font and adequate spacing. Ensure page numbers and headers are present. Make the table of contents functional with hyperlinks if possible.
+
+Save the completed Word document to /mnt/user-data/outputs/legal_risk_analysis_report.docx so the user can access it.
+
+## Creating the Interactive Dashboard
+
+Your second deliverable is an interactive web dashboard that allows users to explore the legal risk landscape visually and interactively. This should be created as a React artifact, which means you will create a single JSX file that contains all the HTML, JavaScript, and styling needed for the dashboard.
+
+The dashboard should provide several key features. Create a visual risk map or matrix that shows all identified risks plotted by severity and category. This gives users an immediate understanding of the risk landscape. Implement filtering capabilities so users can filter by risk category such as contracts, regulatory, litigation, or governance, and filter by severity level such as critical, high, medium, or low. Allow users to combine multiple filters to focus on specific subsets of risks.
+
+Create interactive exploration features where users can click on any risk in the visualization to see detailed information including the full description, supporting evidence, document references, and recommendations. Implement a search capability so users can search for specific keywords across all risks. Include a summary panel that shows aggregate statistics such as total risks identified, breakdown by category, breakdown by severity, and number of documents analyzed.
+
+Use Tailwind CSS for styling to create a clean, modern interface that is responsive and works well on different screen sizes. Choose a color scheme that effectively communicates risk severity, typically using red tones for critical risks, orange for high risks, yellow for medium risks, and green or blue for low risks.
+
+Structure your dashboard code clearly with React components for major sections, state management to track filter selections and active risk, and clear comments explaining the logic. Make sure all data in the dashboard comes from the synthesis and findings files you read, not from hardcoded examples.
+
+Save the dashboard as /mnt/user-data/outputs/risk_dashboard.html or as a React artifact that displays directly in the interface, depending on what makes most sense for the user.
+
+## Completing Your Task
+
+After you have created both deliverables, write a brief completion message that confirms what you created and where the user can find each deliverable. For example, you might say "I have created both deliverables. The comprehensive Legal Risk Analysis Report is available at /mnt/user-data/outputs/legal_risk_analysis_report.docx. The interactive Legal Risk Analysis Dashboard is available as the React artifact displayed above. The report contains detailed findings organized by risk category with supporting evidence and recommendations. The dashboard provides interactive visualization and filtering to explore the risk landscape."
+
+Keep your completion message concise because the main agent does not need all the details of what you included in the deliverables. The main agent just needs confirmation that the work is complete and where to direct the user.""",
+    
+    "tools": [],  # This subagent primarily uses filesystem tools which are provided by default
+    "model": "claude-sonnet-4-5-20250929",
+}
+```
+
+The key insight in this subagent's design is that it focuses entirely on presentation and formatting while relying on the main agent's synthesis for all the analytical content. The subagent is essentially a skilled technical writer and web developer who takes someone else's analytical work and makes it accessible and professional.
+
+## Assembling the Complete System
+
+Now you can bring together all the components into your complete legal risk analysis agent. Notice how you are defining multiple subagents, each with a distinct specialized role:
+
+```python
+from langchain_core.tools import tool
+from typing import List
+
+# Define your data room tools (abbreviated here - use your full implementations)
+@tool
+def get_document(doc_id: str) -> str:
+    """Retrieve complete summary of a document by combining all page summaries."""
+    # Your implementation
+    pass
+
+@tool  
+def get_document_pages(doc_id: str, page_nums: List[int]) -> str:
+    """Retrieve images of specific pages from a document for detailed review."""
+    # Your implementation
+    pass
+
+@tool
+def internet_search(query: str, max_results: int = 5) -> str:
+    """Search the internet for legal precedents, regulations, or context."""
+    # Your implementation
+    pass
+
+@tool
+def web_fetch(url: str) -> str:
+    """Fetch and extract content from a specific web page."""
+    # Your implementation
+    pass
+
+# Define the document analyst subagent (from earlier)
+document_analysis_subagent = {
+    "name": "document-analyst",
+    "description": """Specialized subagent for detailed document retrieval and legal risk analysis.""",
+    "system_prompt": """You are a specialized legal document analyst...""",  # Use full prompt from earlier
+    "tools": [get_document, get_document_pages, internet_search, web_fetch],
+    "model": "claude-sonnet-4-5-20250929",
+}
+
+# Configure the backend for organized storage
+def make_backend(runtime):
+    return CompositeBackend(
+        default=StateBackend(runtime),
+        routes={
+            "/analysis/": StateBackend(runtime),  # All analysis work stays in state
+        }
+    )
+
+# Create the complete legal risk analysis agent with both specialized subagents
+legal_risk_agent = create_deep_agent(
+    model="claude-sonnet-4-5-20250929",
+    system_prompt=main_agent_system_prompt,
+    backend=make_backend,
+    subagents=[
+        document_analysis_subagent,
+        deliverable_creator_subagent
+    ],
+    tools=[internet_search, web_fetch],  # Main agent also has these for its own research
+)
+```
+
+What you have created here is a three-tier architecture where the main agent orchestrates at the highest level, the document-analyst subagent handles tactical document retrieval and analysis, and the deliverable-creator subagent handles technical presentation and formatting. Each tier has a clear responsibility and communicates through well-defined interfaces.
+
+## How the Workflow Actually Unfolds
+
+Let me walk you through what happens when you invoke this system with a data room analysis request. The user provides the Data Room Index and asks for a comprehensive legal risk analysis with both deliverables. The main agent receives this request and begins its coordination work.
+
+First, the main agent reviews the Data Room Index and identifies critical documents that need analysis. It might decide to analyze contracts first, then regulatory documents, then litigation materials, and finally corporate governance documents. For each category, the main agent delegates to the document-analyst subagent with specific instructions.
+
+For example, the main agent might invoke the task tool with instructions like "Analyze the following customer contracts: DOC-103, DOC-104, DOC-105. Focus on termination provisions, liability limitations, indemnification clauses, change of control provisions, and any unusually favorable or unfavorable terms. Provide detailed findings on contractual risks." The document-analyst subagent receives these instructions, retrieves the relevant documents using get_document, examines any concerning sections in detail using get_document_pages, and analyzes them for legal risks. The subagent might also use internet_search to research whether certain provisions are standard or unusual in the industry. Finally, the subagent compiles its findings into a structured markdown report and returns something concise like "I have completed analysis of the customer contracts. Key findings include significant liability exposure due to unlimited indemnification clauses in three major contracts, weak intellectual property protection allowing customers to create derivative works, and concerning termination provisions that allow termination for convenience with only thirty days notice. Full details are in my analysis."
+
+The main agent receives this concise summary and immediately saves the detailed findings to /analysis/contracts/customer_contracts_findings.md. Then the main agent continues with its next delegation, perhaps analyzing regulatory documents next. This pattern repeats until all critical document categories have been analyzed.
+
+Once all analyses are complete, the main agent enters its synthesis phase. It uses the read_file tool to read through all the findings files it accumulated: /analysis/contracts/customer_contracts_findings.md, /analysis/contracts/supplier_contracts_findings.md, /analysis/regulatory/compliance_findings.md, /analysis/litigation/litigation_findings.md, and /analysis/governance/governance_findings.md. As the main agent reads through these findings, it begins to see patterns. Perhaps it notices that weak contractual protections in customer contracts are related to governance issues around contract approval processes. Maybe regulatory compliance gaps appear clustered around data privacy, suggesting a systematic weakness in that area. Perhaps litigation matters reveal that certain types of disputes keep recurring, indicating an operational problem.
+
+The main agent synthesizes these observations into a comprehensive strategic assessment. It creates a document that goes beyond listing individual findings to tell a coherent story about the legal risk landscape. The synthesis identifies the most critical risks, explains their relationships, and prioritizes them based on strategic importance. The main agent saves this synthesis to /analysis/synthesis/comprehensive_risk_assessment.md.
+
+Now comes the final delegation. The main agent invokes the task tool to delegate to the deliverable-creator subagent with instructions like "Create a comprehensive Legal Risk Analysis Report as a Word document and an interactive Legal Risk Analysis Dashboard as a web artifact. Base these deliverables on my comprehensive risk assessment at /analysis/synthesis/comprehensive_risk_assessment.md. You can also reference the detailed findings in /analysis/contracts/, /analysis/regulatory/, /analysis/litigation/, and /analysis/governance/ as needed for supporting evidence. The report should emphasize contractual risks and litigation exposure as the most critical areas requiring immediate attention."
+
+The deliverable-creator subagent receives these instructions and begins its work. First, it reads the main synthesis file to understand the strategic assessment. Then it reads the docx skill to learn how to create high-quality Word documents. The subagent begins constructing the Word document, creating a cover page, executive summary, table of contents, and detailed findings sections. As it works, it references the supporting findings files when it needs specific evidence or details. The subagent applies professional formatting, creates tables and risk matrices, and ensures the document tells a clear, compelling story about the legal risks.
+
+Next, the subagent creates the interactive dashboard as a React artifact. It structures the data from the synthesis into a format suitable for visualization, implements filtering and search capabilities, creates an interactive risk matrix, and styles everything with Tailwind CSS to create a modern, professional interface. The subagent ensures users can explore the risk landscape interactively, drilling down into specific risks to see details and supporting evidence.
+
+Finally, the deliverable-creator subagent saves the Word document to /mnt/user-data/outputs/legal_risk_analysis_report.docx and returns to the main agent with a brief completion message: "I have created both deliverables. The comprehensive Legal Risk Analysis Report is available at the path shown above, and the interactive dashboard is displayed as a React artifact. Both deliverables are based on your synthesis and provide different ways to explore the legal risk landscape."
+
+The main agent receives this confirmation and reports back to the user, providing links to both deliverables and a brief summary of the analysis process and findings.
+
+## Why This Architecture Works Well
+
+This three-tier architecture leverages the strengths of the Deep Agents framework in several important ways. The context isolation is perhaps the most significant benefit. The main agent never sees the hundreds of pages of raw document content that the document-analyst subagent processed, nor does it see the technical details of Word document creation that the deliverable-creator subagent handled. The main agent's context stays focused on strategic coordination and synthesis, which is where it adds the most value.
+
+The specialization principle means each agent becomes excellent at its specific domain. The document-analyst focuses on understanding legal documents and identifying risks. The deliverable-creator focuses on presentation and formatting. The main agent focuses on seeing the big picture and connecting the dots across all analyses. This specialization leads to better outcomes than trying to make a single agent competent at everything.
+
+The filesystem serves as a shared workspace that allows agents to communicate rich information without passing it all through conversation messages. The main agent accumulates findings in organized files, and the deliverable-creator reads from those same files, creating a clean information flow without overwhelming any agent's context window.
+
+The synthesis bottleneck is another key feature of this architecture. By requiring the main agent to create an explicit synthesis document, you force the creation of a coherent strategic narrative rather than just a collection of disparate findings. This synthesis is what transforms raw analysis into actionable insights, and by making it explicit in a file, you ensure that the deliverable-creator has access to this strategic understanding.
+
+## Understanding the Tradeoffs You Have Accepted
+
+By choosing Approach Two, you have made certain tradeoffs that are worth understanding explicitly. The deliverable-creator subagent only sees what the main agent chose to save in the synthesis and findings files. If there are nuances or details in the conversation history that did not make it into those files, the deliverable-creator will not have access to them. This means the quality of the synthesis file is critical because it becomes the primary input for deliverable creation.
+
+The architecture is more complex than having the main agent do everything itself, with additional delegation steps and more moving parts to coordinate. This complexity is worthwhile for the benefits you gain, but it does mean there are more potential points where things could go wrong.
+
+The deliverable-creator cannot ask clarifying questions because subagents in Deep Agents are designed for one-shot task completion. If the synthesis is ambiguous or incomplete, the subagent will do its best with what it has rather than asking for clarification. This places responsibility on the main agent to create thorough, clear synthesis documents that anticipate what information the deliverable-creator will need.
+
+However, these tradeoffs are reasonable given the benefits you get from specialization and context isolation. The key to making this architecture work well is ensuring that the main agent creates comprehensive synthesis documents that capture not just what the risks are, but why they matter, how they relate to each other, and what the strategic priorities should be.
+
+This architecture gives you a sophisticated, scalable system for legal risk analysis that can handle large data rooms while maintaining focus and producing professional deliverables. The three-tier structure mirrors how actual legal teams work, which makes the system's behavior intuitive and effective.

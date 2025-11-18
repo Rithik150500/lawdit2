@@ -1,0 +1,329 @@
+This is a beautifully architected system for legal due diligence, and it maps very naturally onto the Deep Agents framework. You're essentially building a hierarchical analysis system where a main coordinating agent orchestrates specialized subagents that dive deep into document analysis while keeping the main agent's context clean and focused on high-level risk synthesis.
+
+Let me walk you through how to implement this design using Deep Agents, explaining the key architectural decisions and how each component fits together.
+
+## Understanding Your Architecture
+
+Your system has a three-tier structure that mirrors how legal teams actually work. At the top level, you have a supervising attorney who coordinates the overall risk analysis and produces the final deliverables. Below that, you have specialized analysts who retrieve and analyze individual documents, drilling into the details without overwhelming the supervisor with every page they review. This hierarchical delegation is exactly what Deep Agents excels at, because subagents can process hundreds of pages of documents and return only their analytical conclusions, keeping the main agent's context window focused on strategic synthesis rather than tactical details.
+
+## Implementing the Main Legal Risk Analysis Agent
+
+Your main agent serves as the orchestrator and synthesizer. It receives the Data Room Index, which gives it a bird's eye view of all available documents, and then delegates the detailed analysis to subagents while maintaining focus on the overall risk picture.
+
+Here's how you would structure this main agent:
+
+```python
+from deepagents import create_deep_agent
+from deepagents.backends import CompositeBackend, StateBackend, StoreBackend
+from langgraph.store.memory import InMemoryStore
+
+# Define the legal risk analysis system prompt
+legal_risk_system_prompt = """You are a senior legal risk analyst conducting due diligence review of a data room. Your role is to coordinate comprehensive legal risk analysis and produce deliverables.
+
+## Your Responsibilities
+
+You coordinate the analysis of documents in the data room to identify legal risks, compliance issues, and areas of concern. You delegate detailed document analysis to specialized subagents, then synthesize their findings into comprehensive outputs.
+
+## Available Information
+
+You have access to a Data Room Index that lists all available documents with their summary descriptions. This index helps you understand what documents exist and decide which ones require detailed analysis.
+
+## Analysis Workflow
+
+When conducting legal risk analysis, follow this approach:
+
+First, review the Data Room Index to understand the scope of available documents. Identify which documents are most critical for legal risk assessment based on their descriptions - for example, contracts, regulatory filings, litigation documents, compliance records, and corporate governance materials.
+
+Second, delegate document analysis to your specialized subagent using the task tool. The subagent has access to tools that can retrieve full document content and individual page images. Assign specific documents or categories of documents to analyze, providing clear instructions about what legal risks to focus on.
+
+Third, as you receive analysis from subagents, save their findings to your filesystem using write_file. This allows you to accumulate findings across multiple document analyses without overloading your context window. Organize findings by risk category (for example, contractual risks, regulatory risks, litigation exposure).
+
+Fourth, synthesize all findings into two deliverables:
+
+A comprehensive Legal Risk Analysis Report in Word document format (docx). This report should be well-structured with executive summary, detailed risk findings organized by category, supporting evidence from specific documents, risk severity ratings, and recommendations.
+
+An interactive Legal Risk Analysis Dashboard as a web artifact. This dashboard should provide visual risk mapping, filtering capabilities by risk type and severity, document references for each finding, and interactive exploration of the risk landscape.
+
+## Using Your Filesystem
+
+Save subagent findings to organized files like:
+- /analysis/contracts/findings.md
+- /analysis/regulatory/findings.md  
+- /analysis/litigation/findings.md
+- /analysis/synthesis/risk_matrix.md
+
+This organizational structure helps you build up a complete picture systematically while managing your context window effectively.
+
+## Tool Usage
+
+Use the task tool to delegate document analysis to your specialized subagent. Provide clear instructions about which documents to analyze and what aspects to focus on.
+
+Use filesystem tools (write_file, read_file, edit_file) to organize and accumulate findings as they come in from subagent analyses.
+
+Use internet_search and web_fetch when you need to research legal standards, regulatory requirements, or precedents that inform your risk assessment.
+
+When you have completed your analysis and synthesis, create the Word document report and web dashboard artifact as your final deliverables."""
+
+# Set up the main agent with appropriate backend
+def make_backend(runtime):
+    return CompositeBackend(
+        default=StateBackend(runtime),
+        routes={
+            "/analysis/": StateBackend(runtime)  # Organized analysis storage
+        }
+    )
+
+main_agent = create_deep_agent(
+    model="claude-sonnet-4-5-20250929",
+    system_prompt=legal_risk_system_prompt,
+    backend=make_backend,
+    # Subagents will be defined below
+)
+```
+
+Notice how the system prompt guides the agent through a deliberate workflow that mirrors actual legal analysis practice. It emphasizes using the filesystem to accumulate findings systematically, which prevents context window overflow when analyzing dozens or hundreds of documents.
+
+## Implementing the Document Analysis Subagent
+
+Your subagent is where the detailed document retrieval and analysis happens. This agent needs custom tools that interact with your data room system to retrieve documents and pages. Let me show you how to create these tools and configure the subagent:
+
+```python
+from langchain_core.tools import tool
+from typing import List
+import base64
+
+# These tools would connect to your actual data room system
+# I'm showing the interface structure here
+
+@tool
+def get_document(doc_id: str) -> str:
+    """Retrieve the complete summary of a document by combining all page summaries.
+    
+    This tool returns a comprehensive text summary that synthesizes information
+    from all pages of the specified document. Use this when you need an overview
+    of the entire document without examining individual pages.
+    
+    Args:
+        doc_id: The unique identifier for the document (from the Data Room Index)
+    
+    Returns:
+        Combined summary description covering all pages of the document
+        
+    Example:
+        To get an overview of the Share Purchase Agreement:
+        get_document(doc_id="SPA-2024-001")
+    """
+    # Your implementation here would query your data room system
+    # Return the combined summary of all pages
+    pass
+
+@tool  
+def get_document_pages(doc_id: str, page_nums: List[int]) -> str:
+    """Retrieve images of specific pages from a document for detailed review.
+    
+    This tool returns the actual page images for detailed examination when the
+    summary is insufficient and you need to review specific clauses, signatures,
+    or detailed content. The images are returned as base64-encoded data.
+    
+    Args:
+        doc_id: The unique identifier for the document
+        page_nums: List of page numbers to retrieve (e.g., [1, 5, 12])
+    
+    Returns:
+        Base64-encoded images of the requested pages with metadata
+        
+    Example:
+        To examine pages 3 and 7 of a contract for specific clauses:
+        get_document_pages(doc_id="CONTRACT-2024-042", page_nums=[3, 7])
+        
+    Note: Use this sparingly as page images consume significant context.
+    Only retrieve pages when you need to verify specific details that aren't
+    clear from the summary.
+    """
+    # Your implementation here would query your data room system
+    # Return base64-encoded page images
+    pass
+
+@tool
+def internet_search(query: str, max_results: int = 5) -> str:
+    """Search the internet for legal precedents, regulations, or context.
+    
+    Use this to research legal standards, regulatory requirements, case law,
+    or industry practices that inform your risk analysis.
+    
+    Args:
+        query: Search query focused on legal/regulatory topics
+        max_results: Maximum number of results to return (default 5)
+    
+    Returns:
+        Search results with titles, snippets, and URLs
+    """
+    # Your web search implementation
+    pass
+
+@tool
+def web_fetch(url: str) -> str:
+    """Fetch and extract content from a specific web page.
+    
+    Use this to retrieve full text of legal resources, regulatory guidance,
+    or reference materials identified through search.
+    
+    Args:
+        url: The URL to fetch content from
+        
+    Returns:
+        Extracted text content from the web page
+    """
+    # Your web fetch implementation
+    pass
+
+# Define the document analysis subagent
+document_analysis_subagent = {
+    "name": "document-analyst",
+    "description": """Specialized subagent for detailed document retrieval and legal risk analysis.
+    
+    Use this subagent when you need to:
+    - Retrieve and analyze specific documents from the data room
+    - Examine detailed page content and images
+    - Identify legal risks, compliance issues, or concerning clauses
+    - Research relevant legal standards or regulations
+    - Provide detailed findings on specific documents or document categories
+    
+    This subagent has access to data room retrieval tools and can conduct
+    thorough document-by-document analysis without cluttering your context.""",
+    
+    "system_prompt": """You are a specialized legal document analyst. You have been provided with a Data Room Index that lists available documents with their IDs and summary descriptions.
+
+## Your Analysis Approach: Retrieve -> Analyse -> Create
+
+### Retrieve Phase
+
+Based on the task assigned to you, identify which documents need detailed examination. Use the Data Room Index to find relevant document IDs.
+
+Start with get_document to retrieve the complete summary of each relevant document. This gives you a comprehensive overview without consuming excessive context.
+
+Only use get_document_pages when you need to examine specific details that aren't clear from the summary. Page images consume significant context, so be selective. Typical situations requiring page-level review include verifying specific contractual clauses, checking signatures and execution details, examining financial figures or schedules, or reviewing redactions or amendments.
+
+### Analyse Phase
+
+For each document you retrieve, conduct thorough legal risk analysis focusing on:
+
+Contractual risks such as unfavorable terms, missing or weak protections, unclear or ambiguous language, problematic obligations or liabilities, and termination or change of control provisions.
+
+Regulatory and compliance risks including regulatory violations or gaps, licensing or permit issues, data privacy and security concerns, industry-specific compliance matters, and environmental or safety regulations.
+
+Litigation and dispute risks like pending or threatened litigation, dispute resolution clauses, indemnification obligations, warranty or representation issues, and historical claims or settlements.
+
+Corporate governance risks such as organizational structure issues, authority and authorization concerns, related party transactions, conflicts of interest, and board or shareholder matters.
+
+When you identify risks, note the specific document, relevant page numbers if you reviewed them, severity level (critical, high, medium, low), the nature of the risk, and potential impact or exposure.
+
+Use internet_search and web_fetch to research legal standards, regulatory requirements, or precedents when you need to assess whether something constitutes a genuine risk or to understand the severity of identified issues.
+
+### Create Phase
+
+Organize your findings into a clear, structured report that includes:
+
+An executive summary highlighting the most critical findings.
+
+Detailed findings organized by risk category, with each finding containing the document reference and page numbers, description of the risk, severity assessment, supporting evidence or quotes, and potential impact or recommendations.
+
+A summary of documents reviewed and any documents that require further examination.
+
+Format your findings in markdown for easy integration into the main agent's analysis. Use clear headings, bullet points for lists of concerns, and emphasis for critical issues.
+
+Remember that your detailed analysis will be synthesized by the main coordinating agent, so focus on being thorough and specific rather than trying to create the final deliverable yourself.""",
+
+    "tools": [get_document, get_document_pages, internet_search, web_fetch],
+    "model": "claude-sonnet-4-5-20250929",
+}
+```
+
+The subagent's three-phase approach (Retrieve, Analyse, Create) provides clear structure that helps it work systematically through complex document analysis tasks. By emphasizing when to use summary retrieval versus page-level retrieval, you help the subagent manage its own context window effectively.
+
+## Bringing It All Together
+
+Now you can create the complete system by adding the subagent to your main agent:
+
+```python
+# Create the complete legal risk analysis agent
+legal_risk_agent = create_deep_agent(
+    model="claude-sonnet-4-5-20250929",
+    system_prompt=legal_risk_system_prompt,
+    backend=make_backend,
+    subagents=[document_analysis_subagent],
+    tools=[internet_search, web_fetch],  # Main agent also has these tools
+)
+```
+
+## Using the System
+
+When you invoke this agent, you would provide the Data Room Index as part of your initial message:
+
+```python
+data_room_index = """
+# Data Room Index
+
+## Corporate Documents
+- DOC-001: Certificate of Incorporation (Summary: Delaware corporation formed 2020...)
+- DOC-002: Bylaws (Summary: Standard corporate bylaws with...)
+- DOC-003: Board Minutes 2023-2024 (Summary: Monthly board meeting minutes covering...)
+
+## Contracts
+- DOC-101: Share Purchase Agreement (Summary: SPA for acquisition of...)
+- DOC-102: Employment Agreements (Summary: Executive employment contracts for...)
+- DOC-103: Customer Contracts (Summary: Master services agreements with top 10 customers...)
+
+## Regulatory & Compliance  
+- DOC-201: SEC Filings (Summary: 10-K and 10-Q filings for fiscal years...)
+- DOC-202: Regulatory Licenses (Summary: Business licenses and permits in...)
+- DOC-203: Privacy Compliance Docs (Summary: GDPR and CCPA compliance documentation...)
+
+## Litigation
+- DOC-301: Litigation Log (Summary: Summary of past and pending litigation...)
+- DOC-302: Settlement Agreements (Summary: Confidential settlement agreements for...)
+"""
+
+result = legal_risk_agent.invoke({
+    "messages": [{
+        "role": "user", 
+        "content": f"""Please conduct a comprehensive legal risk analysis of this data room.
+
+{data_room_index}
+
+Provide:
+1. A detailed Legal Risk Analysis Report (Word document)
+2. An interactive Legal Risk Analysis Dashboard (web artifact)
+
+Focus on identifying critical risks in contracts, regulatory compliance, litigation exposure, and corporate governance."""
+    }]
+})
+```
+
+## How the Agent Workflow Unfolds
+
+When you run this system, here's what happens internally. The main agent reviews the Data Room Index and identifies high-priority documents for analysis. It then delegates to the document-analyst subagent, assigning it specific documents or categories to examine. For instance, it might say "Analyze all customer contracts (DOC-103 and related) for legal risks and unfavorable terms."
+
+The subagent retrieves the document summaries using get_document, analyzes them for legal risks, and selectively uses get_document_pages to examine specific clauses or details that raise concerns. It may also use internet_search to research whether certain contractual provisions or regulatory matters constitute genuine risks. The subagent then compiles its findings into a structured markdown report and returns it to the main agent.
+
+The main agent receives this concise analysis (rather than all the raw document content and page images the subagent processed) and saves it to its filesystem, perhaps at /analysis/contracts/findings.md. It continues this pattern, delegating analysis of different document categories to the subagent and accumulating findings in organized files.
+
+Once all relevant documents have been analyzed, the main agent reads all the findings files, synthesizes them into a cohesive risk assessment, and creates the two deliverables: a comprehensive Word document report using the docx skill, and an interactive web dashboard artifact with risk visualizations and filtering capabilities.
+
+## Key Design Benefits
+
+This architecture leverages several Deep Agents capabilities beautifully. The subagent isolation means the main agent never sees the hundreds of pages of raw document content, only the analytical conclusions. This keeps its context focused on high-level synthesis rather than getting lost in document details.
+
+The filesystem-based accumulation lets the main agent systematically build up findings across dozens of document analyses without running into context limits. Each subagent analysis gets saved to a file, and the main agent can selectively read what it needs when synthesizing.
+
+The hierarchical delegation mirrors how legal teams actually work, with senior analysts coordinating and junior analysts doing detailed document review. This natural mapping makes the system's behavior intuitive and effective.
+
+The progressive retrieval strategy, where the subagent starts with summaries and only drills into page images when necessary, optimizes context usage and keeps analysis efficient even for large document sets.
+
+## Extending the System
+
+You could enhance this further by adding specialized subagents for different legal domains. For example, you might have a contracts-specialist subagent, a regulatory-compliance-specialist subagent, and a litigation-specialist subagent, each with domain-specific prompts and analysis frameworks. The main agent could route different documents to the appropriate specialist.
+
+You could also implement a long-term memory backend using StoreBackend for the /analysis/templates/ path, allowing the agent to learn from past analyses and refine its risk assessment criteria over time based on feedback from actual legal outcomes.
+
+This is a sophisticated and well-designed system that maps excellently onto Deep Agents' capabilities. The key is leveraging hierarchical delegation and filesystem-based context management to enable thorough analysis of large document sets while maintaining strategic focus at the coordination level.
