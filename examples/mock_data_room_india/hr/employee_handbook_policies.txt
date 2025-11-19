@@ -1,0 +1,498 @@
+EMPLOYEE HANDBOOK
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+Version 3.0
+Effective Date: 1st April 2024
+
+════════════════════════════════════════════════════════════════════════════════
+TABLE OF CONTENTS
+════════════════════════════════════════════════════════════════════════════════
+
+1. Welcome Message
+2. Company Overview
+3. Code of Conduct
+4. Employment Policies
+5. Compensation and Benefits
+6. Leave Policies
+7. Working Hours and Attendance
+8. Performance Management
+9. Learning and Development
+10. Health, Safety and Wellness
+11. IT and Data Security
+12. Prevention of Sexual Harassment (POSH)
+13. Grievance Redressal
+14. Termination and Exit
+
+════════════════════════════════════════════════════════════════════════════════
+1. WELCOME MESSAGE
+════════════════════════════════════════════════════════════════════════════════
+
+Dear Team Member,
+
+Welcome to TechVista Solutions! We are delighted to have you as part of our growing
+family. This handbook outlines our policies, practices, and expectations. Please read
+it carefully and refer to it whenever you have questions.
+
+At TechVista, we value innovation, integrity, collaboration, and excellence. Together,
+we strive to create cutting-edge technology solutions while maintaining a supportive
+and inclusive work environment.
+
+Warm Regards,
+Rahul Sharma
+Managing Director
+
+════════════════════════════════════════════════════════════════════════════════
+2. COMPANY OVERVIEW
+════════════════════════════════════════════════════════════════════════════════
+
+COMPANY NAME: TechVista Solutions Private Limited
+FOUNDED: January 2020
+HEADQUARTERS: Bengaluru, Karnataka
+EMPLOYEES: 485+ (as of March 2024)
+
+VISION:
+To be a global leader in innovative technology solutions that transform businesses.
+
+MISSION:
+Deliver exceptional software products and services through talented teams, cutting-edge
+technology, and customer-centric approach.
+
+VALUES:
+- Innovation: Embrace creativity and continuous improvement
+- Integrity: Uphold highest ethical standards
+- Collaboration: Work together to achieve common goals
+- Excellence: Strive for quality in everything we do
+- Customer Focus: Put customer success at the center
+
+SERVICES:
+- Custom Software Development
+- Mobile App Development
+- Cloud Solutions
+- AI/ML Services
+- IT Consulting
+- Product Engineering
+
+════════════════════════════════════════════════════════════════════════════════
+3. CODE OF CONDUCT
+════════════════════════════════════════════════════════════════════════════════
+
+All employees must:
+
+3.1 PROFESSIONAL CONDUCT
+    - Maintain professional behavior at all times
+    - Treat colleagues, clients, and vendors with respect
+    - Dress appropriately (business casual)
+    - Arrive on time for meetings and commitments
+    - Communicate clearly and courteously
+
+3.2 ETHICAL STANDARDS
+    - Act with honesty and integrity
+    - Avoid conflicts of interest
+    - Refuse bribes, kickbacks, or inappropriate gifts
+    - Report unethical behavior through proper channels
+    - Comply with all applicable laws and regulations
+
+3.3 CONFIDENTIALITY
+    - Protect company and client confidential information
+    - Not disclose proprietary information to third parties
+    - Return all confidential materials upon exit
+    - Use company information only for business purposes
+
+3.4 INTELLECTUAL PROPERTY
+    - Respect company's IP rights
+    - Assign all work product to company
+    - Not use company IP for personal benefit
+    - Report any IP infringement
+
+3.5 CONFLICT OF INTEREST
+    - Disclose potential conflicts to management
+    - Not engage in competing business
+    - Not use company resources for personal gain
+    - Avoid situations compromising objectivity
+
+════════════════════════════════════════════════════════════════════════════════
+4. EMPLOYMENT POLICIES
+════════════════════════════════════════════════════════════════════════════════
+
+4.1 EQUAL OPPORTUNITY
+    TechVista is an equal opportunity employer. We do not discriminate based on:
+    - Gender, religion, caste, race, or ethnicity
+    - Age, disability, or marital status
+    - Sexual orientation or gender identity
+    - Pregnancy or maternity
+
+4.2 PROBATION PERIOD
+    - Duration: 3 months (extendable up to 6 months)
+    - Confirmation subject to performance review
+    - Notice period during probation: 15 days
+
+4.3 NOTICE PERIOD
+    - Post-probation: 60 days (or as per employment contract)
+    - Notice can be waived with mutual consent
+    - Buyout option: Payment of notice period salary
+
+4.4 BACKGROUND VERIFICATION
+    - Conducted for all new hires
+    - Includes education, employment, criminal record checks
+    - Employment subject to satisfactory verification
+
+4.5 CONFIDENTIAL AGREEMENTS
+    - All employees sign NDA and IP assignment agreements
+    - Non-compete clause: 12 months post-employment
+    - Non-solicitation of clients and employees
+
+════════════════════════════════════════════════════════════════════════════════
+5. COMPENSATION AND BENEFITS
+════════════════════════════════════════════════════════════════════════════════
+
+5.1 SALARY
+    - Paid monthly by 7th of following month
+    - Credited to employee's bank account
+    - Salary slips available on HRMS portal
+
+5.2 COMPONENTS
+    - Basic Salary
+    - House Rent Allowance (HRA)
+    - Special Allowance
+    - Performance Bonus (variable)
+
+5.3 DEDUCTIONS
+    - Provident Fund (PF): 12% of Basic
+    - Employee State Insurance (ESI): 0.75% (if applicable)
+    - Professional Tax: As per state regulations
+    - Income Tax (TDS): As per IT Act, 1961
+
+5.4 BENEFITS
+
+    Medical Insurance:
+    - Coverage: ₹5,00,000 per family
+    - Covers: Self, spouse, 2 children, parents
+    - Cashless hospitalization at network hospitals
+    - Premium paid by company
+
+    Accidental Insurance:
+    - Coverage: ₹10,00,000
+    - Company-paid
+
+    Provident Fund (PF):
+    - Employee: 12% of Basic
+    - Employer: 12% of Basic
+    - As per EPF Act, 1952
+
+    Gratuity:
+    - Payable after 5 years of service
+    - As per Payment of Gratuity Act, 1972
+
+    Employee Stock Options (ESOP):
+    - Eligible after 1 year of service
+    - Subject to Board approval
+    - Vesting: 4 years with 1-year cliff
+
+5.5 PERFORMANCE BONUS
+    - Annual bonus up to 20% of gross salary
+    - Based on individual and company performance
+    - Paid in June each year
+
+5.6 ANNUAL INCREMENTS
+    - Performance-based salary revision
+    - Effective from April each year
+    - Average increment: 8-15%
+
+════════════════════════════════════════════════════════════════════════════════
+6. LEAVE POLICIES
+════════════════════════════════════════════════════════════════════════════════
+
+6.1 EARNED/PRIVILEGE LEAVE (PL)
+    - Entitlement: 21 days per year
+    - Accrual: Monthly (1.75 days per month)
+    - Carry forward: Maximum 30 days
+    - Encashment: On resignation/retirement (max 30 days)
+
+6.2 SICK LEAVE (SL)
+    - Entitlement: 7 days per year
+    - Medical certificate required for 3+ consecutive days
+    - No carry forward
+    - Not encashable
+
+6.3 CASUAL LEAVE (CL)
+    - Entitlement: 7 days per year
+    - For unforeseen circumstances
+    - No carry forward
+    - Not encashable
+
+6.4 MATERNITY LEAVE
+    - Duration: 26 weeks (as per Maternity Benefit Act, 2017)
+    - For first two children: 26 weeks
+    - For third child onwards: 12 weeks
+    - Full pay during maternity leave
+    - Work from home option available post-leave
+
+6.5 PATERNITY LEAVE
+    - Duration: 15 days
+    - To be availed within 6 months of child's birth
+    - Full pay
+
+6.6 BEREAVEMENT LEAVE
+    - Duration: 5 days
+    - On death of immediate family member
+    - Additional leave can be taken from PL
+
+6.7 PUBLIC HOLIDAYS
+    - As per Karnataka State Government calendar
+    - Approximately 12-14 days per year
+    - List published annually
+
+6.8 LEAVE APPLICATION
+    - Apply through HRMS portal
+    - Advance approval required
+    - Emergency leave: Inform manager immediately
+
+════════════════════════════════════════════════════════════════════════════════
+7. WORKING HOURS AND ATTENDANCE
+════════════════════════════════════════════════════════════════════════════════
+
+7.1 STANDARD HOURS
+    - Monday to Friday: 9:00 AM to 6:00 PM
+    - Lunch break: 1 hour
+    - Weekly hours: 40 hours
+
+7.2 FLEXIBLE WORKING
+    - Core hours: 10:00 AM to 4:00 PM (mandatory presence)
+    - Flexibility: 8:00 AM - 10:00 AM and 4:00 PM - 7:00 PM
+    - Subject to team and project requirements
+
+7.3 WORK FROM HOME (WFH)
+    - Hybrid model: 3 days office, 2 days WFH (subject to approval)
+    - Full remote for specific roles (pre-approved)
+    - Equipment provided by company
+
+7.4 OVERTIME
+    - Compensatory off for work beyond 9 hours/day
+    - Requires prior manager approval
+    - Comp-off to be availed within 30 days
+
+7.5 ATTENDANCE TRACKING
+    - Biometric/RFID card swipe mandatory
+    - HRMS portal for attendance records
+    - Monthly attendance report available
+
+7.6 LATE COMING
+    - Grace period: 15 minutes (max 3 times/month)
+    - Excessive late coming: Loss of pay/disciplinary action
+
+7.7 UNAUTHORIZED ABSENCE
+    - Loss of pay
+    - Disciplinary action for repeated absences
+    - Termination if absent for 3+ consecutive days without intimation
+
+════════════════════════════════════════════════════════════════════════════════
+8. PERFORMANCE MANAGEMENT
+════════════════════════════════════════════════════════════════════════════════
+
+8.1 PERFORMANCE CYCLE
+    - Annual cycle: April to March
+    - Mid-year review: September
+    - Annual appraisal: April
+
+8.2 GOAL SETTING
+    - SMART goals aligned with company objectives
+    - Set at beginning of cycle with manager
+    - Quarterly review and updates
+
+8.3 PERFORMANCE RATINGS
+    - Outstanding (O): Exceptional performance
+    - Exceeds Expectations (EE): Above average
+    - Meets Expectations (ME): Satisfactory
+    - Needs Improvement (NI): Below expectations
+    - Unsatisfactory (U): Far below expectations
+
+8.4 360-DEGREE FEEDBACK
+    - Feedback from manager, peers, and subordinates
+    - Anonymous and constructive
+    - Used for development planning
+
+8.5 PERFORMANCE IMPROVEMENT PLAN (PIP)
+    - For employees rated NI or U
+    - Duration: 60-90 days
+    - Regular monitoring and support
+    - Continued poor performance: Termination
+
+════════════════════════════════════════════════════════════════════════════════
+9. LEARNING AND DEVELOPMENT
+════════════════════════════════════════════════════════════════════════════════
+
+9.1 TRAINING PROGRAMS
+    - Technical skill development
+    - Soft skills training
+    - Leadership development
+    - Domain-specific certifications
+
+9.2 LEARNING BUDGET
+    - ₹25,000 per employee per year
+    - For courses, certifications, conferences
+    - Subject to approval and relevance
+
+9.3 CERTIFICATION SUPPORT
+    - Company sponsors relevant certifications
+    - Study leave provided for exams
+    - Reimbursement upon successful completion
+
+9.4 MENTORSHIP PROGRAM
+    - Mentors assigned to new joiners
+    - Career guidance and skill development
+    - Regular mentoring sessions
+
+════════════════════════════════════════════════════════════════════════════════
+10. HEALTH, SAFETY AND WELLNESS
+════════════════════════════════════════════════════════════════════════════════
+
+10.1 WORKPLACE SAFETY
+     - Fire safety equipment and drills
+     - First aid facilities
+     - Emergency evacuation procedures
+     - COVID-19 safety protocols
+
+10.2 WELLNESS PROGRAMS
+     - Annual health check-ups
+     - Yoga and meditation sessions
+     - Mental health counseling
+     - Fitness reimbursement: ₹5,000/year
+
+10.3 ERGONOMICS
+     - Ergonomic workstations
+     - Adjustable chairs and desks
+     - Eye care (computer glasses reimbursement)
+
+════════════════════════════════════════════════════════════════════════════════
+11. IT AND DATA SECURITY
+════════════════════════════════════════════════════════════════════════════════
+
+11.1 IT USAGE POLICY
+     - Company devices for business use only
+     - No personal software installation without IT approval
+     - Regular antivirus and security updates
+     - Prohibited: Downloading illegal content, visiting inappropriate sites
+
+11.2 DATA SECURITY
+     - Passwords: Strong, changed every 90 days
+     - No sharing of login credentials
+     - Encrypt sensitive data
+     - Report security incidents immediately
+
+11.3 BYOD (Bring Your Own Device)
+     - Personal devices must have security software
+     - Company data access through secure VPN
+     - Device registration with IT department
+
+11.4 SOCIAL MEDIA
+     - Professional conduct on social media
+     - No disclosure of company confidential information
+     - Disclaimer required when representing company
+
+════════════════════════════════════════════════════════════════════════════════
+12. PREVENTION OF SEXUAL HARASSMENT (POSH)
+════════════════════════════════════════════════════════════════════════════════
+
+12.1 POLICY
+     TechVista has zero tolerance for sexual harassment. We are committed to
+     providing a safe, respectful workplace free from harassment.
+
+12.2 WHAT CONSTITUTES SEXUAL HARASSMENT
+     - Unwelcome sexual advances
+     - Requests for sexual favors
+     - Sexual remarks, jokes, or innuendos
+     - Showing pornographic material
+     - Physical contact or advances
+     - Eve-teasing, stalking
+     - Any other unwelcome conduct of sexual nature
+
+12.3 INTERNAL COMPLAINTS COMMITTEE (ICC)
+     Chairperson: Ms. Kavita Iyer (External Member)
+     Members:
+     - Ms. Priya Mehta (Director)
+     - Ms. Anjali Nair (Company Secretary)
+     - Mr. Anil Kumar (HR Head)
+     - Ms. Deepa Krishnan (External NGO Representative)
+
+     Email: [email protected]
+     Helpline: +91-80-4567-8999 (Confidential)
+
+12.4 COMPLAINT PROCESS
+     - File written complaint with ICC within 3 months
+     - ICC investigates within 90 days
+     - Confidential and fair inquiry
+     - Action taken based on findings
+     - No retaliation against complainant
+
+════════════════════════════════════════════════════════════════════════════════
+13. GRIEVANCE REDRESSAL
+════════════════════════════════════════════════════════════════════════════════
+
+13.1 GRIEVANCE MECHANISM
+     Level 1: Immediate Manager
+     Level 2: HR Department
+     Level 3: Grievance Committee
+     Level 4: Managing Director
+
+13.2 CONTACT
+     Email: [email protected]
+     Phone: +91-80-4567-8901
+
+13.3 WHISTLEBLOWER POLICY
+     - Report unethical practices, fraud, violations
+     - Anonymous reporting option available
+     - Protection against retaliation
+     - Email: [email protected]
+
+════════════════════════════════════════════════════════════════════════════════
+14. TERMINATION AND EXIT
+════════════════════════════════════════════════════════════════════════════════
+
+14.1 RESIGNATION
+     - Submit written resignation to manager and HR
+     - Serve notice period (60 days or as per contract)
+     - Exit interview mandatory
+     - Full and final settlement within 45 days
+
+14.2 TERMINATION
+     Grounds for termination:
+     - Misconduct or disciplinary issues
+     - Poor performance (after PIP)
+     - Breach of company policies
+     - Fraudulent activities
+     - Extended unauthorized absence
+
+14.3 EXIT PROCESS
+     - Knowledge transfer and handover
+     - Return of company assets (laptop, ID card, access cards)
+     - Exit clearance from all departments
+     - No-dues certificate
+     - Experience and relieving letter
+
+14.4 FULL AND FINAL SETTLEMENT
+     Includes:
+     - Salary for notice period worked
+     - Leave encashment
+     - Bonus (prorata)
+     - Gratuity (if applicable)
+     - PF settlement (through EPFO)
+
+════════════════════════════════════════════════════════════════════════════════
+
+ACKNOWLEDGMENT
+
+I, _________________________, employee ID _________, acknowledge that I have
+received, read, and understood the Employee Handbook. I agree to comply with all
+policies and procedures outlined herein.
+
+Employee Signature: _____________________
+Date: _____________________
+
+════════════════════════════════════════════════════════════════════════════════
+
+For queries, contact:
+HR Department
+Email: [email protected]
+Phone: +91-80-4567-8900
+
+════════════════════════════════════════════════════════════════════════════════

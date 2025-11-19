@@ -1,0 +1,224 @@
+GOODS AND SERVICES TAX
+ANNUAL RETURN - FORM GSTR-9
+
+FINANCIAL YEAR: 2023-24
+
+PART A - BASIC DETAILS
+
+1. GSTIN: 29AABCT1234F1Z5
+
+2. LEGAL NAME: TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+3. TRADE NAME: TechVista Solutions
+
+4. AGGREGATE TURNOVER FOR THE FINANCIAL YEAR: ₹455,000,000
+
+5. CATEGORY OF REGISTERED PERSON: Regular Taxpayer
+
+6. PRINCIPAL PLACE OF BUSINESS:
+   No. 42, 3rd Floor, Prestige Tech Park
+   Outer Ring Road, Marathahalli
+   Bengaluru - 560037, Karnataka
+
+PART B - DETAILS OF OUTWARD SUPPLIES
+
+TABLE 4: DETAILS OF ADVANCES, INWARD AND OUTWARD SUPPLIES MADE DURING THE YEAR
+
+4A. Taxable outward supplies (other than zero rated, nil rated and exempted)
+    Integrated Tax (IGST)                        ₹ 125,000,000    Tax: ₹ 22,500,000
+    Central Tax (CGST)                          ₹ 250,000,000    Tax: ₹ 22,500,000
+    State Tax (SGST)                            ₹ 250,000,000    Tax: ₹ 22,500,000
+    Total                                        ₹ 625,000,000    Tax: ₹ 67,500,000
+
+4B. Zero rated supply (Exports) on payment of tax
+    Integrated Tax                               ₹  80,000,000    Tax: ₹ 14,400,000
+
+4C. Zero rated supply (Exports) under bond/LUT
+    Integrated Tax                               ₹          0     Tax: ₹         0
+
+4D. Deemed Exports                               ₹          0     Tax: ₹         0
+
+4E. Exempted and Nil Rated Supplies             ₹          0     Tax: ₹         0
+
+4F. Non-GST outward supplies                     ₹          0
+
+TOTAL OUTWARD SUPPLIES (4A to 4F)                ₹ 705,000,000
+
+Note: Difference between aggregate turnover (₹455M) and outward supplies (₹705M)
+is due to GST being added separately and some transactions being inter-state.
+
+TABLE 5: OUTWARD SUPPLIES REPORTED IN RETURNS BUT NOT IN AUDITED FINANCIALS
+
+Particulars                                      Taxable Value    Tax Amount
+Differences due to timing of revenue recognition ₹   2,500,000    ₹   450,000
+
+TABLE 6: ADJUSTMENTS (IF ANY)
+
+A. Outward supplies declared in GSTR-1 but not in GSTR-3B
+                                                 ₹           0    ₹         0
+
+B. Outward supplies declared in GSTR-3B but not in GSTR-1
+                                                 ₹           0    ₹         0
+
+PART C - DETAILS OF INPUT TAX CREDIT (ITC)
+
+TABLE 7: ITC AVAILABLE
+
+A. Total ITC availed                                             ₹ 45,750,000
+   - IGST                                                        ₹ 18,300,000
+   - CGST                                                        ₹ 13,725,000
+   - SGST                                                        ₹ 13,725,000
+
+B. ITC Reversed                                                  ₹  1,250,000
+   (ITC on personal use, blocked credits etc.)
+
+C. Net ITC Available (A-B)                                       ₹ 44,500,000
+
+TABLE 8: OTHER ITC RELATED INFORMATION
+
+A. ITC as per GSTR-2A                           IGST  ₹ 18,500,000
+                                                CGST  ₹ 13,875,000
+                                                SGST  ₹ 13,875,000
+                                                Total ₹ 46,250,000
+
+B. ITC as per GSTR-3B                           IGST  ₹ 18,300,000
+                                                CGST  ₹ 13,725,000
+                                                SGST  ₹ 13,725,000
+                                                Total ₹ 45,750,000
+
+C. ITC Availed but not reflected in 2A          IGST  ₹         0
+   (Reasons: All ITC properly reconciled)       CGST  ₹         0
+                                                SGST  ₹         0
+
+D. Difference (A-B)                             IGST  ₹   200,000
+   (Reasons: Suppliers' delayed filing)         CGST  ₹   150,000
+                                                SGST  ₹   150,000
+                                                Total ₹   500,000
+
+PART D - DETAILS OF TAX PAID
+
+TABLE 9: TAX PAID AS DECLARED IN RETURNS FILED DURING THE YEAR
+
+A. Integrated Tax (IGST)                                         ₹ 18,900,000
+B. Central Tax (CGST)                                           ₹  8,775,000
+C. State Tax (SGST)                                             ₹  8,775,000
+D. Cess                                                         ₹          0
+
+TOTAL TAX PAID                                                   ₹ 36,450,000
+
+TABLE 10: TAX PAID AS PER AUDITED FINANCIAL STATEMENTS
+
+A. Integrated Tax (IGST)                                         ₹ 18,900,000
+B. Central Tax (CGST)                                           ₹  8,775,000
+C. State Tax (SGST)                                             ₹  8,775,000
+
+TOTAL TAX PAID AS PER BOOKS                                      ₹ 36,450,000
+
+Difference: NIL (Fully Reconciled)
+
+PART E - PARTICULARS OF TRANSACTIONS FOR THE YEAR
+
+TABLE 11: SUPPLIES/TAX DECLARED THROUGH AMENDMENT
+
+Particulars                               Taxable Value    Tax Amount
+Supplies declared in previous FY          ₹   1,500,000   ₹   270,000
+but invoiced in current FY
+
+TABLE 12: HSN-WISE SUMMARY OF OUTWARD SUPPLIES
+
+HSN Code  Description                      Taxable Value    Tax Amount
+998314    IT Software Services             ₹ 380,000,000   ₹ 68,400,000
+998315    IT Consulting Services           ₹  75,000,000   ₹ 13,500,000
+
+(Note: Service Accounting Codes as per GST for Services)
+
+TABLE 13: HSN-WISE SUMMARY OF INWARD SUPPLIES
+
+HSN Code  Description                      Taxable Value    ITC Amount
+998314    IT Services                      ₹  85,000,000   ₹ 15,300,000
+847130    Computer Hardware                ₹  32,000,000   ₹  5,760,000
+847160    Software Licenses                ₹  52,000,000   ₹  9,360,000
+Various   Other Goods & Services           ₹  85,000,000   ₹ 15,080,000
+
+TOTAL                                      ₹ 254,000,000   ₹ 45,500,000
+
+PART F - REFUND CLAIMED
+
+TABLE 14: REFUND CLAIMED
+
+Type of Refund                            IGST            CGST           SGST
+Export Refund (Zero rated supply)         ₹ 14,400,000   ₹         0    ₹        0
+Excess balance in Electronic              ₹          0   ₹         0    ₹        0
+Cash Ledger
+ITC accumulated due to inverted           ₹          0   ₹         0    ₹        0
+duty structure
+Others                                    ₹          0   ₹         0    ₹        0
+
+TOTAL REFUND CLAIMED                      ₹ 14,400,000   ₹         0    ₹        0
+
+Refund sanctioned and paid                ₹ 14,400,000   ₹         0    ₹        0
+Refund rejected                           ₹          0   ₹         0    ₹        0
+Refund pending                            ₹          0   ₹         0    ₹        0
+
+PART G - INFORMATION ON SUPPLIES RECEIVED FROM COMPOSITION DEALERS
+
+TABLE 15: SUPPLIES RECEIVED FROM COMPOSITION DEALERS
+
+Particulars                               Taxable Value    Tax
+Supplies received from                    ₹     250,000   ₹ Not Applicable
+composition dealers (unregistered)
+
+LATE FEE AND INTEREST
+
+Late Fee Paid (if any)                    ₹           0
+Interest Paid (if any)                    ₹           0
+
+RECONCILIATION STATEMENT
+
+Particulars                                              Amount (₹)
+Total Turnover as per Audited Financial Statements       455,000,000
+Add: GST Collected (Output Tax)                           81,900,000
+Total                                                    536,900,000
+
+Total Outward Supplies as per GST Returns                705,000,000
+Difference due to:
+- Inter-state supplies counted separately                 168,100,000
+(Reconciled and explained)
+
+GST AUDIT CERTIFICATE (Form GSTR-9C)
+
+Auditor Name: M/s. Srinivasan & Associates
+Auditor PAN: AAOFS1234G
+Firm Registration Number: 012345S
+
+Audit Opinion: Unqualified Opinion
+The financial statements give a true and fair view and GST returns are in accordance
+with the books of accounts.
+
+Date of Audit Report: 30/09/2024
+
+VERIFICATION
+
+I, Suresh Reddy, Chief Financial Officer, hereby verify that the information given
+in this return is true and correct to the best of my knowledge and belief and nothing
+has been concealed.
+
+Authorized Signatory Details:
+Name: Suresh Reddy
+Designation: Chief Financial Officer
+PAN: ACDSR5678K
+
+Place: Bengaluru
+Date: 30/11/2024
+
+Digital Signature: Applied
+Date of Filing: 30/11/2024
+Acknowledgement Reference Number (ARN): AA291123456789012
+
+NOTES:
+1. Annual Return filed within the due date (31st December 2024)
+2. All monthly/quarterly returns (GSTR-1 and GSTR-3B) filed on time
+3. Reconciliation with books of accounts completed
+4. Export refunds claimed and received within time limits
+5. No show-cause notices or demands pending
+6. GST Audit (GSTR-9C) filed along with Annual Return

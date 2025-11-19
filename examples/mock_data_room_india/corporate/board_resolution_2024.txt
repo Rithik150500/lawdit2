@@ -1,0 +1,157 @@
+BOARD RESOLUTION
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+CIN: U72900KA2020PTC135246
+
+MINUTES OF THE BOARD MEETING HELD ON 15TH MARCH 2024
+
+Date: 15th March 2024
+Time: 10:00 AM IST
+Venue: Registered Office - No. 42, 3rd Floor, Prestige Tech Park, Marathahalli, Bengaluru - 560037
+
+PRESENT:
+1. Mr. Rahul Sharma - Managing Director & Chairman (DIN: 08234567)
+2. Ms. Priya Mehta - Director (DIN: 08234568)
+3. Mr. Arun Kumar - Independent Director (DIN: 08234569)
+4. Ms. Kavita Iyer - Director (DIN: 08234570)
+
+IN ATTENDANCE:
+1. Mr. Suresh Reddy - Chief Financial Officer
+2. Ms. Anjali Nair - Company Secretary
+
+QUORUM:
+The Chairman noted that requisite quorum being present, the meeting was called to order.
+
+AGENDA AND RESOLUTIONS:
+
+RESOLUTION NO. 1: APPROVAL OF MINUTES
+RESOLVED THAT the minutes of the Board Meeting held on 15th December 2023 be and are hereby approved and confirmed.
+
+RESOLUTION NO. 2: APPROVAL OF ANNUAL FINANCIAL STATEMENTS FOR FY 2023-24
+RESOLVED THAT the audited financial statements for the financial year ended 31st March 2024, comprising:
+- Balance Sheet as at 31st March 2024
+- Statement of Profit & Loss for the year ended 31st March 2024
+- Cash Flow Statement for the year ended 31st March 2024
+- Notes to Financial Statements
+
+as prepared by the management and audited by M/s. Srinivasan & Associates, Chartered Accountants, be and are hereby approved.
+
+RESOLVED FURTHER THAT the Board notes the following financial highlights:
+- Total Revenue: ₹45,50,00,000
+- Net Profit: ₹8,75,00,000
+- Total Assets: ₹35,60,00,000
+- Net Worth: ₹22,40,00,000
+
+RESOLUTION NO. 3: DECLARATION OF DIVIDEND
+RESOLVED THAT a dividend of ₹15 per equity share (15% on face value of ₹100) amounting to ₹75,00,000 be declared for the financial year 2023-24, subject to approval of shareholders in the Annual General Meeting.
+
+RESOLVED FURTHER THAT the dividend shall be paid within 30 days from the date of declaration at the AGM.
+
+RESOLUTION NO. 4: APPOINTMENT OF NEW EMPLOYEE STOCK OPTION PLAN (ESOP)
+RESOLVED THAT pursuant to the provisions of Section 62 of the Companies Act, 2013, the Company hereby approves the creation and implementation of "TechVista ESOP Scheme 2024" for grant of stock options to eligible employees.
+
+RESOLVED FURTHER THAT:
+- Total number of options reserved: 50,000 options
+- Each option convertible into 1 equity share of ₹100
+- Exercise price: ₹500 per share
+- Vesting period: 4 years with 1-year cliff
+- Eligibility: All permanent employees with minimum 1 year service
+
+RESOLUTION NO. 5: APPROVAL OF BORROWING LIMITS
+RESOLVED THAT pursuant to Section 180(1)(c) of the Companies Act, 2013, the Board be and is hereby authorized to borrow funds up to ₹20,00,00,000 (Rupees Twenty Crores) from banks, financial institutions, or other lending sources.
+
+RESOLVED FURTHER THAT the borrowing may be secured by mortgage/charge on the Company's assets, both present and future.
+
+RESOLUTION NO. 6: OPENING OF NEW BRANCH OFFICE
+RESOLVED THAT the Company be authorized to establish a new branch office at the following location:
+
+Tower B, 5th Floor, Cyber Gateway
+Madhapur, Hyderabad - 500081
+Telangana, India
+
+RESOLVED FURTHER THAT the Managing Director be authorized to complete all formalities including filing Form INC-22 with the Registrar of Companies.
+
+RESOLUTION NO. 7: APPOINTMENT OF INTERNAL AUDITOR
+RESOLVED THAT M/s. Kumar & Associates, Chartered Accountants, be appointed as Internal Auditors of the Company for the financial year 2024-25 at a remuneration of ₹3,00,000 per annum plus applicable taxes.
+
+RESOLUTION NO. 8: APPROVAL OF RELATED PARTY TRANSACTIONS
+RESOLVED THAT pursuant to Section 188 of the Companies Act, 2013, approval be granted for the following related party transactions:
+
+a) Lease of premises from Sharma Properties Pvt. Ltd. (entity controlled by Director Mr. Rahul Sharma)
+   - Monthly rent: ₹5,00,000
+   - Duration: 3 years from 1st April 2024
+   - Total value: ₹1,80,00,000
+
+b) Consulting services from Mehta Consultants LLP (entity where Ms. Priya Mehta is partner)
+   - Service fee: ₹8,00,000 per annum
+   - Duration: 1 year
+
+RESOLVED FURTHER THAT these transactions are at arm's length and in the ordinary course of business.
+
+RESOLUTION NO. 9: AUTHORIZATION FOR FUND RAISING
+RESOLVED THAT the Board explores options for raising additional capital through:
+- Private placement of equity shares
+- Convertible debentures
+- External commercial borrowings
+
+up to an aggregate amount of ₹30,00,00,000 (Rupees Thirty Crores).
+
+RESOLVED FURTHER THAT the Managing Director and CFO be jointly authorized to negotiate terms and finalize the capital raising structure.
+
+RESOLUTION NO. 10: APPROVAL OF CORPORATE SOCIAL RESPONSIBILITY (CSR) ACTIVITIES
+RESOLVED THAT pursuant to Section 135 of the Companies Act, 2013, the Company shall spend ₹17,50,000 (being 2% of average net profits) on CSR activities during FY 2024-25.
+
+RESOLVED FURTHER THAT the CSR Committee recommendations for the following activities be approved:
+- Rural education initiatives: ₹7,00,000
+- Healthcare programs: ₹5,00,000
+- Environmental sustainability: ₹3,50,000
+- Skill development programs: ₹2,00,000
+
+RESOLUTION NO. 11: APPOINTMENT OF ADDITIONAL DIRECTOR
+RESOLVED THAT Ms. Deepa Krishnan (DIN: 09876543) be appointed as an Additional Director of the Company with effect from 15th March 2024, liable to retire at the next Annual General Meeting.
+
+RESOLVED FURTHER THAT her appointment be placed before shareholders for confirmation at the AGM.
+
+RESOLUTION NO. 12: CONVENING OF ANNUAL GENERAL MEETING
+RESOLVED THAT the 5th Annual General Meeting of the Company be convened on 15th September 2024 at 11:00 AM at the Registered Office.
+
+RESOLVED FURTHER THAT the Notice of AGM be sent to all shareholders at least 21 days prior to the meeting date.
+
+GENERAL BUSINESS:
+
+The CFO presented a detailed update on:
+1. Quarterly financial performance exceeding targets
+2. Progress on new client acquisitions (12 new enterprise clients)
+3. Expansion of development team (hired 45 new engineers)
+4. Launch of new AI/ML product line expected in Q2 FY 2024-25
+
+The Managing Director discussed:
+1. Strategic partnership discussions with two international technology firms
+2. Plans for geographical expansion to Singapore and Dubai
+3. Investment in R&D for emerging technologies (blockchain, quantum computing)
+
+There being no other business, the meeting concluded with a vote of thanks to the Chair.
+
+Meeting concluded at: 1:30 PM IST
+
+________________________
+Rahul Sharma
+Managing Director & Chairman
+DIN: 08234567
+Date: 15/03/2024
+
+________________________
+Priya Mehta
+Director
+DIN: 08234568
+Date: 15/03/2024
+
+________________________
+Anjali Nair
+Company Secretary
+ACS: 45678
+Date: 15/03/2024
+
+Registered Office:
+No. 42, 3rd Floor, Prestige Tech Park
+Outer Ring Road, Marathahalli
+Bengaluru - 560037, Karnataka

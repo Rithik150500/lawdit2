@@ -1,0 +1,128 @@
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+CIN: U72900KA2020PTC135246
+
+BALANCE SHEET AS AT 31ST MARCH 2024
+(Amount in ₹)
+
+PARTICULARS                                    Note No.    As at          As at
+                                                        31-Mar-2024    31-Mar-2023
+
+I. EQUITY AND LIABILITIES
+
+(1) SHAREHOLDER'S FUNDS
+    (a) Share Capital                             1      50,000,000     45,000,000
+    (b) Reserves and Surplus                      2     174,000,000    130,000,000
+                                                        224,000,000    175,000,000
+
+(2) NON-CURRENT LIABILITIES
+    (a) Long-term Borrowings                      3      35,000,000     25,000,000
+    (b) Deferred Tax Liabilities (Net)            4       5,000,000      4,200,000
+    (c) Long-term Provisions                      5       3,500,000      2,800,000
+                                                         43,500,000     32,000,000
+
+(3) CURRENT LIABILITIES
+    (a) Short-term Borrowings                     6      25,000,000     18,000,000
+    (b) Trade Payables                            7      28,500,000     22,000,000
+    (c) Other Current Liabilities                 8      18,000,000     14,500,000
+    (d) Short-term Provisions                     9      17,000,000     13,500,000
+                                                         88,500,000     68,000,000
+
+TOTAL EQUITY AND LIABILITIES                            356,000,000    275,000,000
+
+II. ASSETS
+
+(1) NON-CURRENT ASSETS
+    (a) Fixed Assets
+        (i) Tangible Assets                      10      45,000,000     38,000,000
+        (ii) Intangible Assets                   11      28,000,000     22,000,000
+        (iii) Capital Work-in-Progress                    5,000,000      3,500,000
+    (b) Non-current Investments                  12      15,000,000     10,000,000
+    (c) Deferred Tax Assets (Net)                13       8,000,000      6,500,000
+    (d) Long-term Loans and Advances             14      12,000,000      9,000,000
+    (e) Other Non-current Assets                 15       7,000,000      5,500,000
+                                                        120,000,000     94,500,000
+
+(2) CURRENT ASSETS
+    (a) Inventories                              16       8,000,000      6,500,000
+    (b) Trade Receivables                        17      95,000,000     72,000,000
+    (c) Cash and Cash Equivalents                18      65,000,000     52,000,000
+    (d) Short-term Loans and Advances            19      42,000,000     32,000,000
+    (e) Other Current Assets                     20      26,000,000     18,000,000
+                                                        236,000,000    180,500,000
+
+TOTAL ASSETS                                            356,000,000    275,000,000
+
+NOTES TO FINANCIAL STATEMENTS:
+
+Note 1 - SHARE CAPITAL
+Particulars                                         31-Mar-2024    31-Mar-2023
+Authorized:
+10,00,000 Equity Shares of ₹100 each             100,000,000    100,000,000
+
+Issued, Subscribed & Paid-up:
+5,00,000 Equity Shares of ₹100 each               50,000,000     45,000,000
+                                                   50,000,000     45,000,000
+
+Note 2 - RESERVES AND SURPLUS
+General Reserve                                    45,000,000     35,000,000
+Securities Premium Account                        50,000,000     40,000,000
+Retained Earnings                                 79,000,000     55,000,000
+                                                  174,000,000    130,000,000
+
+Note 3 - LONG-TERM BORROWINGS
+Term Loans from Banks                             30,000,000     20,000,000
+Debentures                                         5,000,000      5,000,000
+                                                   35,000,000     25,000,000
+
+Note 4 - TANGIBLE ASSETS
+Computer Equipment                                25,000,000     20,000,000
+Furniture & Fixtures                               8,000,000      7,000,000
+Office Equipment                                   5,000,000      4,500,000
+Vehicles                                           7,000,000      6,500,000
+                                                   45,000,000     38,000,000
+
+Note 5 - INTANGIBLE ASSETS
+Software & Licenses                               18,000,000     14,000,000
+Patents & Trademarks                               6,000,000      5,000,000
+Goodwill                                           4,000,000      3,000,000
+                                                   28,000,000     22,000,000
+
+Note 6 - TRADE RECEIVABLES
+Outstanding for more than 6 months                15,000,000     12,000,000
+Others                                            80,000,000     60,000,000
+                                                   95,000,000     72,000,000
+
+Note 7 - CASH AND CASH EQUIVALENTS
+Cash on Hand                                         500,000        400,000
+Balances with Banks:
+  - In Current Accounts                           28,500,000     22,600,000
+  - In Fixed Deposits                             36,000,000     29,000,000
+                                                   65,000,000     52,000,000
+
+SIGNIFICANT ACCOUNTING POLICIES:
+
+1. Basis of Preparation: Financial statements prepared on accrual basis under historical cost convention and in accordance with Indian Accounting Standards (Ind AS).
+
+2. Revenue Recognition: Revenue from software development recognized on percentage completion method. AMC revenue recognized over contract period.
+
+3. Depreciation: Computed on Written Down Value method as per Schedule II of Companies Act, 2013.
+
+4. Investments: Long-term investments valued at cost. Current investments valued at lower of cost or fair value.
+
+5. Inventory: Valued at lower of cost or net realizable value on FIFO basis.
+
+6. Foreign Currency Transactions: Recorded at exchange rates prevailing on transaction date. Year-end balances restated at closing rates.
+
+For SRINIVASAN & ASSOCIATES              For TECHVISTA SOLUTIONS PRIVATE LIMITED
+Chartered Accountants
+FRN: 012345S
+
+_______________________                  _______________________    _______________________
+CA Venkat Srinivasan                     Rahul Sharma              Suresh Reddy
+Partner                                  Managing Director         Chief Financial Officer
+M.No.: 123456                           DIN: 08234567
+
+Place: Bengaluru                         _______________________
+Date: 30th April 2024                    Anjali Nair
+                                        Company Secretary
+                                        ACS: 45678

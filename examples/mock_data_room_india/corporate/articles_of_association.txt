@@ -1,0 +1,158 @@
+ARTICLES OF ASSOCIATION
+OF
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+(A PRIVATE COMPANY LIMITED BY SHARES)
+
+THE COMPANIES ACT, 2013
+
+TABLE 'F' OF SCHEDULE I TO THE COMPANIES ACT, 2013
+(As modified and adopted)
+
+PRELIMINARY
+
+1. INTERPRETATION
+
+In these Articles, unless the context otherwise requires:
+- "The Act" means the Companies Act, 2013 including any statutory modification or re-enactment thereof
+- "The Company" means TECHVISTA SOLUTIONS PRIVATE LIMITED
+- "Board" means the Board of Directors of the Company
+- "Director" means a Director of the Company
+- "Registered Office" means the registered office of the Company
+
+2. Table F of Schedule I of the Companies Act, 2013 shall apply to the Company except insofar as they are altered, modified, or excluded by these Articles.
+
+SHARE CAPITAL AND SHARES
+
+3. AUTHORIZED CAPITAL
+The Authorized Share Capital of the Company is ₹10,00,00,000 divided into 10,00,000 Equity Shares of ₹100 each.
+
+4. ISSUE OF SHARES
+Subject to the provisions of the Act, shares may be issued by the Board on such terms and conditions as it thinks fit.
+
+5. RIGHTS ATTACHED TO SHARES
+Each equity share shall carry one vote per share and equal rights to dividends.
+
+6. TRANSFER OF SHARES
+(a) The instrument of transfer shall be in writing in Form SH-4 or as prescribed under the Act.
+(b) No share shall be transferred to a person who is not a member so long as any member is willing to purchase the same at fair value.
+(c) The Directors may refuse to register any transfer of shares without assigning any reason.
+
+7. TRANSMISSION OF SHARES
+On the death of a member, the survivor(s) or nominee(s) or legal representatives shall be the only persons recognized by the Company as having any title to the shares.
+
+8. SHARE CERTIFICATES
+Every member shall be entitled to a share certificate under the common seal of the Company.
+
+GENERAL MEETINGS
+
+9. ANNUAL GENERAL MEETING
+The Company shall hold an Annual General Meeting within six months from the close of the financial year.
+
+10. EXTRAORDINARY GENERAL MEETING
+The Board may convene an Extraordinary General Meeting whenever it thinks fit.
+
+11. NOTICE OF MEETINGS
+(a) 21 days' notice shall be given for calling a general meeting
+(b) Notice shall be sent to all members, directors, and auditors
+(c) Notice shall specify the place, date, time, and agenda
+
+12. QUORUM
+Two members present in person shall constitute a quorum for general meetings.
+
+13. VOTING RIGHTS
+(a) On a show of hands, every member present shall have one vote
+(b) On a poll, voting rights shall be in proportion to shares held
+(c) No member shall vote if calls or dues are payable
+
+BOARD OF DIRECTORS
+
+14. NUMBER OF DIRECTORS
+The number of Directors shall not be less than two (2) and not more than fifteen (15).
+
+15. FIRST DIRECTORS
+The first Directors of the Company shall be:
+1. Rahul Sharma (DIN: 08234567)
+2. Priya Mehta (DIN: 08234568)
+
+16. POWERS OF DIRECTORS
+The Board shall have all powers to manage the business and affairs of the Company including:
+(a) Power to make calls on shareholders
+(b) Power to borrow money
+(c) Power to invest surplus funds
+(d) Power to appoint officers and employees
+(e) Power to make contracts
+(f) Power to open bank accounts
+
+17. BOARD MEETINGS
+(a) Board meetings shall be held at least once every quarter
+(b) Notice of 7 days shall be given for Board meetings
+(c) Quorum shall be one-third of total strength or two Directors, whichever is higher
+
+18. CHAIRMAN
+The Directors may elect a Chairman from among themselves. In absence of Chairman, members may choose any Director to preside.
+
+19. MANAGING DIRECTOR
+The Board may appoint one or more Managing Directors for such term and remuneration as it thinks fit.
+
+ACCOUNTS AND AUDIT
+
+20. BOOKS OF ACCOUNT
+The Company shall keep proper books of account as required by the Act.
+
+21. FINANCIAL YEAR
+The financial year of the Company shall be from 1st April to 31st March unless otherwise determined by the Board.
+
+22. APPOINTMENT OF AUDITORS
+Auditors shall be appointed in accordance with the provisions of the Act.
+
+23. AUDIT REPORT
+The Auditors shall make a report to the members on the accounts examined by them.
+
+DIVIDENDS
+
+24. DECLARATION OF DIVIDEND
+The Company may declare dividends in general meeting but not exceeding the amount recommended by the Board.
+
+25. INTERIM DIVIDEND
+The Board may declare interim dividends.
+
+26. DIVIDEND TO BE PAID OUT OF PROFITS
+No dividend shall be paid except out of profits of the Company.
+
+NOTICES
+
+27. SERVICE OF NOTICES
+Any notice may be served by the Company by:
+(a) Delivering personally
+(b) Sending by registered post
+(c) Sending by electronic mode to registered email
+
+INDEMNITY
+
+28. INDEMNITY TO DIRECTORS
+Every Director, officer, or servant of the Company shall be indemnified against all losses or liabilities incurred in execution of their duties, except due to willful negligence or default.
+
+WINDING UP
+
+29. DISTRIBUTION IN WINDING UP
+If the Company is wound up, surplus assets shall be distributed among members in proportion to capital paid up on shares held.
+
+PRIVACY AND CONFIDENTIALITY
+
+30. CONFIDENTIAL INFORMATION
+All Directors, officers, and employees shall maintain confidentiality of Company information and trade secrets.
+
+---
+
+We, the subscribers to the Memorandum of Association, agree to take the shares set opposite our names:
+
+1. Rahul Sharma - 25,000 shares
+   Signature: _________________
+   Date: 10/01/2020
+
+2. Priya Mehta - 25,000 shares
+   Signature: _________________
+   Date: 10/01/2020
+
+DATED this 10th day of January, 2020
+Place: Bengaluru

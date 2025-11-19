@@ -1,0 +1,239 @@
+INCOME TAX RETURN - FORM ITR-6
+For Companies (other than companies claiming exemption under section 11)
+
+ASSESSMENT YEAR: 2024-25
+FINANCIAL YEAR: 2023-24
+
+PART A - GENERAL INFORMATION
+
+1. NAME OF THE ASSESSEE:
+   TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+2. PAN: AABCT1234F
+
+3. STATUS: Company (Domestic Company)
+
+4. CORPORATE IDENTITY NUMBER (CIN): U72900KA2020PTC135246
+
+5. REGISTERED OFFICE ADDRESS:
+   No. 42, 3rd Floor, Prestige Tech Park
+   Outer Ring Road, Marathahalli
+   Bengaluru - 560037, Karnataka
+   Phone: +91-80-4567-8900
+   Email: [email protected]
+
+6. FILING STATUS: Original Return
+
+7. NATURE OF BUSINESS:
+   Computer programming, consultancy and related activities (NIC Code: 72900)
+
+8. DATE OF INCORPORATION: 15/01/2020
+
+9. ACCOUNTING PERIOD:
+   From: 01/04/2023  To: 31/03/2024
+
+10. RETURN FILED UNDER: Section 139(1) - On or before due date
+
+PART B - COMPUTATION OF TOTAL INCOME
+
+INCOME FROM BUSINESS OR PROFESSION (PGBP)
+
+1. Net Profit as per Profit & Loss Account                    ₹ 66,500,000
+
+ADD: Expenses debited to P&L but not allowable
+     (a) Depreciation as per books                            ₹ 18,000,000
+     (b) CSR Expenditure (not allowable u/s 37)              ₹  1,750,000
+     (c) Provision for Doubtful Debts                        ₹  2,500,000
+     (d) Employee Stock Option Expense                        ₹  5,000,000
+     (e) Tax relating to earlier years                        ₹    250,000
+     (f) Income Tax Provision                                 ₹ 21,000,000
+     Total Additions                                          ₹ 48,500,000
+
+2. LESS: Income credited to P&L but not taxable/to be taxed separately
+     (a) Dividend Income (taxable separately)                 ₹    500,000
+     (b) Capital Gains on sale of assets                      ₹    450,000
+     Total Deductions                                         ₹    950,000
+
+3. LESS: Allowable deductions not debited to P&L
+     (a) Depreciation as per Income Tax Act                   ₹ 24,000,000
+     (b) Additional depreciation u/s 32(1)(iia)              ₹  3,500,000
+     (c) Deduction u/s 80JJAA (Employment generation)        ₹  2,500,000
+     Total Deductions                                         ₹ 30,000,000
+
+4. NET INCOME FROM BUSINESS                                   ₹ 84,050,000
+
+INCOME FROM OTHER SOURCES
+
+1. Interest Income
+   (a) Interest on Fixed Deposits (TDS deducted)             ₹  3,500,000
+   (b) Interest on Income Tax Refund                         ₹    250,000
+   Total Interest Income                                      ₹  3,750,000
+
+2. Dividend Income (from domestic companies)                  ₹    500,000
+
+3. Other Income                                               ₹  1,000,000
+
+TOTAL INCOME FROM OTHER SOURCES                               ₹  5,250,000
+
+CAPITAL GAINS
+
+Short-term Capital Gains on sale of assets                    ₹    450,000
+
+GROSS TOTAL INCOME                                            ₹ 89,750,000
+
+DEDUCTIONS UNDER CHAPTER VI-A
+
+Section 80G - Donations to Charitable Institutions            ₹    500,000
+(Eligible donations made during the year)
+
+TOTAL DEDUCTIONS                                              ₹    500,000
+
+TOTAL INCOME (after deductions)                               ₹ 89,250,000
+
+PART C - COMPUTATION OF TAX LIABILITY
+
+1. Income Tax on Total Income @ 25%                           ₹ 22,312,500
+   (As per Section 115BAA - Domestic Company with lower rate)
+
+2. Add: Surcharge @ 10% (as income > ₹1 crore)               ₹  2,231,250
+
+3. Sub-total                                                  ₹ 24,543,750
+
+4. Add: Health and Education Cess @ 4%                        ₹    981,750
+
+5. TOTAL TAX LIABILITY                                        ₹ 25,525,500
+
+6. Less: Tax Relief u/s 90/90A (Foreign Tax Credit)          ₹          0
+
+7. Tax Payable after relief                                   ₹ 25,525,500
+
+PART D - TAX PAYMENTS
+
+1. Advance Tax Paid:
+   15/06/2023                                                 ₹  5,000,000
+   15/09/2023                                                 ₹  6,500,000
+   15/12/2023                                                 ₹  6,500,000
+   15/03/2024                                                 ₹  5,000,000
+   Total Advance Tax                                          ₹ 23,000,000
+
+2. TDS (Tax Deducted at Source)                              ₹  2,800,000
+
+3. TCS (Tax Collected at Source)                             ₹          0
+
+4. Self Assessment Tax (paid with return)                     ₹    100,000
+
+TOTAL TAX PAID                                                ₹ 25,900,000
+
+REFUND/DEMAND
+
+Tax Paid                                                      ₹ 25,900,000
+Tax Payable                                                   ₹ 25,525,500
+
+REFUND DUE                                                    ₹    374,500
+
+PART E - TAX DEDUCTED AT SOURCE (TDS) DETAILS
+
+Particulars              Section    TDS Amount    Date        Deductor TAN
+Interest on FD           194A       350,000       Various     BANG12345F
+Professional Fees        194J       120,000       Various     DELH23456G
+Rent                    194I       180,000       Various     BANG34567H
+Contractors             194C       850,000       Various     BANG45678I
+Commission              194H       320,000       Various     MUMB56789J
+Others                  Various    980,000       Various     Various
+
+TOTAL TDS                                      2,800,000
+
+PART F - DETAILS OF INCOME TAX PAID IN FOREIGN COUNTRY
+
+Applicable: NO
+(Company has no foreign income during the year)
+
+PART G - BALANCE SHEET AS ON 31/03/2024
+
+LIABILITIES                        Amount (₹)    ASSETS                    Amount (₹)
+Share Capital                     50,000,000     Fixed Assets             73,000,000
+Reserves & Surplus               174,000,000     Investments              15,000,000
+Secured Loans                     60,000,000     Current Assets          236,000,000
+Unsecured Loans                          0       Deferred Tax Assets       8,000,000
+Current Liabilities &             72,000,000     Loans & Advances         54,000,000
+Provisions
+TOTAL                            356,000,000     TOTAL                   356,000,000
+
+PART H - MANUFACTURING ACCOUNT
+
+Not Applicable (Service Company)
+
+PART I - QUANTITATIVE DETAILS
+
+Not Applicable (Service Company)
+
+PART J - AUDIT INFORMATION
+
+1. Whether accounts audited: YES
+2. Auditor's Name: M/s. Srinivasan & Associates
+3. Auditor's PAN: AAOFS1234G
+4. Firm Registration Number: 012345S
+5. Date of Audit Report: 30/04/2024
+
+6. Tax Audit u/s 44AB: YES
+   Audit Report Form: 3CD
+   Date of Report: 30/04/2024
+
+PART K - TRANSFER PRICING
+
+1. Whether International Transaction entered: YES
+2. Whether Form 3CEB filed: YES
+3. Date of filing Form 3CEB: 20/10/2024
+4. Total value of international transactions: ₹12,00,00,000
+5. Arm's Length Price: ₹12,00,00,000
+6. Adjustment made (if any): NIL
+
+PART L - COMPLIANCE INFORMATION
+
+1. Whether liable for CSR: YES
+   Amount required to be spent: ₹1,750,000
+   Amount actually spent: ₹1,750,000
+
+2. Whether claiming deduction u/s 10AA/80-IA/80-IAB etc: NO
+
+3. Whether claiming MAT Credit: NO
+
+4. Whether paying dividend: YES
+   Total dividend paid: ₹75,00,000
+   Dividend Distribution Tax (if applicable): Not Applicable (post 2020)
+
+VERIFICATION
+
+I, Rahul Sharma, Managing Director of TECHVISTA SOLUTIONS PRIVATE LIMITED, holding
+DIN 08234567, do hereby verify that the information given in this return and the
+annexures and statements accompanying it is correct and complete to the best of my
+knowledge and belief and nothing has been concealed or suppressed.
+
+Place: Bengaluru
+Date: 30/07/2024
+
+Signature: _____________________
+           Rahul Sharma
+           Managing Director
+           DIN: 08234567
+
+PERSON RESPONSIBLE FOR DEDUCTION OF TAX:
+
+Name: Suresh Reddy
+Designation: Chief Financial Officer
+PAN: ACDSR5678K
+
+ACKNOWLEDGEMENT NUMBER: 123456789012345
+DATE OF FILING: 30/07/2024
+MODE OF FILING: Electronic Filing
+
+Digital Signature Certificate Details:
+Name: Rahul Sharma
+Date: 30/07/2024
+DSC Serial Number: 12AB34CD56EF78GH90IJ
+
+NOTES:
+1. Company opted for taxation u/s 115BAA @ 25% (plus surcharge and cess)
+2. No MAT liability as per Section 115BAA
+3. All statutory compliances completed on time
+4. No penalty or prosecution proceedings pending

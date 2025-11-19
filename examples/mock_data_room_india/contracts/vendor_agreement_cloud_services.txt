@@ -1,0 +1,303 @@
+VENDOR SERVICE AGREEMENT
+(Cloud Infrastructure Services)
+
+This Vendor Service Agreement ("Agreement") is entered into on this 1st January 2024
+
+BETWEEN:
+
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+CIN: U72900KA2020PTC135246
+No. 42, 3rd Floor, Prestige Tech Park, Outer Ring Road, Marathahalli
+Bengaluru - 560037, Karnataka, India
+PAN: AABCT1234F
+GSTIN: 29AABCT1234F1Z5
+(hereinafter referred to as the "Client" or "TechVista")
+
+AND
+
+CLOUDTECH INFRASTRUCTURE PRIVATE LIMITED
+CIN: U72200KA2018PTC145678
+Tech Tower, Electronic City Phase 1
+Bengaluru - 560100, Karnataka, India
+PAN: AABCC5678G
+GSTIN: 29AABCC5678G1Z8
+(hereinafter referred to as the "Vendor" or "Service Provider")
+
+WHEREAS the Client requires cloud infrastructure services for hosting and managing its
+applications and data; and
+
+WHEREAS the Vendor is engaged in providing cloud infrastructure, hosting, and related
+services;
+
+NOW THEREFORE, in consideration of the mutual covenants and agreements contained herein,
+the parties agree as follows:
+
+1. SCOPE OF SERVICES
+
+1.1 The Vendor shall provide the following cloud infrastructure services:
+
+    a) Cloud Compute Services:
+       - Virtual Machine instances (Linux & Windows)
+       - Container orchestration (Kubernetes)
+       - Serverless computing resources
+       - Auto-scaling capabilities
+
+    b) Storage Services:
+       - Block storage: 10 TB
+       - Object storage: 50 TB
+       - Database storage: 5 TB
+       - Backup storage: 20 TB
+
+    c) Networking Services:
+       - Virtual Private Cloud (VPC)
+       - Load balancers (2 instances)
+       - Content Delivery Network (CDN)
+       - DDoS protection
+       - VPN connectivity
+
+    d) Database Services:
+       - Managed PostgreSQL databases (3 instances)
+       - Redis cache clusters (2 instances)
+       - MongoDB clusters (1 instance)
+
+    e) Security Services:
+       - Web Application Firewall (WAF)
+       - SSL/TLS certificates
+       - Identity and Access Management (IAM)
+       - Security monitoring and alerts
+
+    f) Additional Services:
+       - 24x7 monitoring and support
+       - Automated backups and disaster recovery
+       - Performance optimization
+       - Monthly usage reports and analytics
+
+2. SERVICE LEVELS AND UPTIME
+
+2.1 UPTIME GUARANTEE:
+    - Compute & Storage: 99.95% monthly uptime
+    - Database Services: 99.99% monthly uptime
+    - Network Services: 99.95% monthly uptime
+
+2.2 SUPPORT RESPONSE TIMES:
+    Priority Level    First Response    Resolution Target
+    Critical (P1)     15 minutes        2 hours
+    High (P2)         30 minutes        4 hours
+    Medium (P3)       2 hours           24 hours
+    Low (P4)          8 hours           72 hours
+
+2.3 MAINTENANCE WINDOWS:
+    Planned maintenance: Saturday 2:00 AM - 6:00 AM IST (with 7 days notice)
+    Emergency maintenance: As required with best effort notification
+
+3. TERM AND RENEWAL
+
+3.1 INITIAL TERM:
+    This Agreement shall commence on 1st January 2024 and continue for a period of
+    3 (three) years until 31st December 2026.
+
+3.2 RENEWAL:
+    This Agreement shall automatically renew for successive 1-year terms unless either
+    party provides 90 days written notice prior to expiration.
+
+4. PRICING AND PAYMENT TERMS
+
+4.1 SERVICE CHARGES (Monthly):
+
+    Component                        Quantity    Unit Price    Monthly Cost
+    -------------------------------------------------------------------------
+    Compute - Virtual Machines       20 VMs      ₹8,000       ₹1,60,000
+    Compute - Container Service      5 nodes     ₹12,000      ₹60,000
+    Storage - Block Storage          10 TB       ₹3,000/TB    ₹30,000
+    Storage - Object Storage         50 TB       ₹2,000/TB    ₹1,00,000
+    Database - PostgreSQL            3 inst      ₹25,000      ₹75,000
+    Database - Redis Cache           2 inst      ₹15,000      ₹30,000
+    Load Balancers                   2 units     ₹10,000      ₹20,000
+    CDN - Data Transfer              5 TB        ₹1,500/TB    ₹7,500
+    Backup Storage                   20 TB       ₹1,000/TB    ₹20,000
+    Security Services                1 package   ₹50,000      ₹50,000
+    Support (24x7 Premium)           1 package   ₹75,000      ₹75,000
+    -------------------------------------------------------------------------
+    MONTHLY RECURRING COST                                    ₹6,27,500
+
+4.2 GST: Additional 18% GST applicable on all charges
+
+4.3 TOTAL MONTHLY PAYMENT: ₹6,27,500 + 18% GST = ₹7,40,450
+
+4.4 ANNUAL CONTRACT VALUE (ACV): ₹88,85,400 (including GST)
+
+4.5 VARIABLE CHARGES:
+    - Data transfer exceeding 5 TB/month: ₹1,500 per TB
+    - Additional compute resources: As per rate card
+    - Disaster recovery drills: ₹25,000 per drill
+
+4.6 PAYMENT TERMS:
+    a) Monthly invoices to be raised by 5th of each month
+    b) Payment due within 30 days from invoice date
+    c) Payment via NEFT/RTGS to Vendor's bank account
+    d) Late payment interest: 1.5% per month on overdue amount
+
+4.7 ANNUAL PRICE INCREASE:
+    Prices may be increased annually by maximum of 5% or CPI inflation (whichever
+    is lower) with 60 days written notice.
+
+5. DATA SECURITY AND COMPLIANCE
+
+5.1 The Vendor shall:
+    a) Implement industry-standard security measures (ISO 27001 certified)
+    b) Encrypt data at rest using AES-256 encryption
+    c) Encrypt data in transit using TLS 1.3
+    d) Maintain SOC 2 Type II compliance
+    e) Conduct quarterly security audits
+    f) Maintain audit logs for minimum 1 year
+
+5.2 COMPLIANCE CERTIFICATIONS:
+    - ISO 27001:2013 (Information Security)
+    - ISO 27018 (Cloud Privacy)
+    - PCI DSS Level 1 (Payment Card Industry)
+    - GDPR compliance for EU data
+    - Indian IT Act 2000 compliance
+
+5.3 DATA LOCATION:
+    All data shall be stored in India data centers (Mumbai & Bengaluru regions)
+    unless explicitly authorized in writing for other locations.
+
+5.4 BACKUP AND DISASTER RECOVERY:
+    - Daily automated backups with 30-day retention
+    - Disaster recovery site in alternate Indian city
+    - Recovery Time Objective (RTO): 4 hours
+    - Recovery Point Objective (RPO): 1 hour
+
+6. CONFIDENTIALITY
+
+6.1 Both parties shall maintain confidentiality of all proprietary and confidential
+    information exchanged during the term of this Agreement.
+
+6.2 Vendor shall not access, use, or disclose Client's data except as necessary to
+    provide the services.
+
+6.3 This obligation shall survive termination for a period of 5 years.
+
+7. INTELLECTUAL PROPERTY
+
+7.1 All Client data, applications, and content remain the exclusive property of Client.
+
+7.2 Vendor retains all rights to its platform, software, and infrastructure.
+
+7.3 Client grants Vendor limited license to host and process Client data solely for
+    providing the services.
+
+8. LIABILITY AND INDEMNITY
+
+8.1 SERVICE LEVEL CREDITS:
+    If uptime falls below guaranteed levels:
+    - 99.95% to 99.00%: 10% monthly credit
+    - 99.00% to 95.00%: 25% monthly credit
+    - Below 95.00%: 50% monthly credit
+
+8.2 LIMITATION OF LIABILITY:
+    Vendor's total liability shall not exceed 12 months of service fees paid by Client.
+
+8.3 EXCLUSIONS:
+    Vendor not liable for downtime caused by:
+    - Client's applications or configurations
+    - Force majeure events
+    - Scheduled maintenance
+    - Third-party service failures beyond Vendor's control
+
+8.4 INDEMNIFICATION:
+    Each party shall indemnify the other against third-party claims arising from
+    breach of this Agreement or negligence.
+
+9. DATA OWNERSHIP AND PORTABILITY
+
+9.1 CLIENT DATA OWNERSHIP:
+    All data uploaded by Client remains Client's exclusive property.
+
+9.2 DATA EXPORT:
+    Client may export data at any time in standard formats (JSON, CSV, SQL dumps).
+
+9.3 DATA DELETION:
+    Upon termination, Vendor shall:
+    a) Provide 30 days for Client to export data
+    b) Securely delete all Client data within 60 days
+    c) Provide certificate of deletion
+
+10. TERMINATION
+
+10.1 TERMINATION FOR CONVENIENCE:
+     Either party may terminate with 90 days written notice.
+
+10.2 TERMINATION FOR BREACH:
+     Either party may terminate immediately if the other party:
+     a) Materially breaches and fails to cure within 30 days
+     b) Becomes insolvent or files for bankruptcy
+     c) Violates data security obligations
+
+10.3 EFFECT OF TERMINATION:
+     a) Client pays for services used up to termination date
+     b) Vendor provides data export assistance
+     c) Vendor deletes all Client data post export period
+     d) Client removes all content from Vendor's infrastructure
+
+11. AUDIT RIGHTS
+
+11.1 Client may audit Vendor's security and compliance practices with 30 days notice,
+     maximum twice per year.
+
+11.2 Vendor shall provide access to relevant documentation and systems for audit.
+
+12. INSURANCE
+
+12.1 Vendor shall maintain:
+     - Professional Indemnity Insurance: ₹10 Crores coverage
+     - Cyber Liability Insurance: ₹5 Crores coverage
+     - General Liability Insurance: ₹2 Crores coverage
+
+13. NOTICES
+
+All notices shall be sent to:
+
+For Client:                          For Vendor:
+Suresh Reddy, CFO                    Aditya Sharma, VP Operations
+TechVista Solutions Pvt Ltd          CloudTech Infrastructure Pvt Ltd
+Email: [email protected]           Email: [email protected]
+Phone: +91-80-4567-8900              Phone: +91-80-6789-0123
+
+14. GENERAL PROVISIONS
+
+14.1 GOVERNING LAW: Laws of India
+14.2 JURISDICTION: Courts of Bengaluru, Karnataka
+14.3 ENTIRE AGREEMENT: Supersedes all prior agreements
+14.4 AMENDMENTS: Must be in writing signed by both parties
+14.5 ASSIGNMENT: Not assignable without written consent
+14.6 FORCE MAJEURE: Neither party liable for events beyond reasonable control
+
+IN WITNESS WHEREOF, the parties have executed this Agreement:
+
+FOR TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+_______________________________          _______________________________
+Rahul Sharma                            Suresh Reddy
+Managing Director                       Chief Financial Officer
+DIN: 08234567                          PAN: ACDSR5678K
+Date: 01/01/2024                       Date: 01/01/2024
+
+Company Seal
+
+FOR CLOUDTECH INFRASTRUCTURE PRIVATE LIMITED
+
+_______________________________          _______________________________
+Aditya Sharma                           Rajesh Menon
+VP Operations                           CFO
+Date: 01/01/2024                       Date: 01/01/2024
+
+Company Seal
+
+ANNEXURES:
+- Annexure A: Technical Specifications
+- Annexure B: Service Level Agreement (SLA) Details
+- Annexure C: Data Processing Agreement (DPA)
+- Annexure D: Security and Compliance Certifications
+- Annexure E: Disaster Recovery Plan
+- Annexure F: Escalation Matrix

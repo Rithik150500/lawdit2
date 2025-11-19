@@ -1,0 +1,147 @@
+SHAREHOLDING PATTERN
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+CIN: U72900KA2020PTC135246
+
+As on: 31st March 2024
+
+AUTHORIZED SHARE CAPITAL:
+₹10,00,00,000 divided into 10,00,000 Equity Shares of ₹100 each
+
+ISSUED, SUBSCRIBED & PAID-UP CAPITAL:
+₹5,00,00,000 divided into 5,00,000 Equity Shares of ₹100 each
+
+CATEGORY-WISE SHAREHOLDING:
+
+A. PROMOTER AND PROMOTER GROUP:
+
+1. Individual Promoters:
+
+   Name: Rahul Sharma
+   DIN/PAN: AABCS1234D
+   Designation: Managing Director
+   Number of Shares: 1,50,000
+   Percentage: 30.00%
+
+   Name: Priya Mehta
+   DIN/PAN: ACDPM5678E
+   Designation: Director
+   Number of Shares: 1,25,000
+   Percentage: 25.00%
+
+2. Promoter Group Entities:
+
+   Name: Sharma Family Trust
+   PAN: AAATS9012F
+   Number of Shares: 50,000
+   Percentage: 10.00%
+
+Total Promoter Holding: 3,25,000 shares (65.00%)
+
+B. NON-PROMOTER SHAREHOLDING:
+
+1. Institutional Investors:
+
+   Name: Accel India Ventures II
+   Type: Venture Capital Fund
+   Number of Shares: 75,000
+   Percentage: 15.00%
+
+   Name: Sequoia Capital India Growth
+   Type: Private Equity Fund
+   Number of Shares: 50,000
+   Percentage: 10.00%
+
+2. Individual Investors (Non-Promoter):
+
+   Name: Arun Kumar
+   DIN/PAN: AEFPK3456G
+   Designation: Independent Director
+   Number of Shares: 10,000
+   Percentage: 2.00%
+
+   Name: Kavita Iyer
+   PAN: AGHKI7890H
+   Designation: Director
+   Number of Shares: 15,000
+   Percentage: 3.00%
+
+   Name: Vikram Patel (Employee)
+   PAN: AIJVP2345I
+   Number of Shares: 15,000
+   Percentage: 3.00%
+
+   Name: Sneha Reddy (Employee)
+   PAN: AKLSR6789J
+   Number of Shares: 10,000
+   Percentage: 2.00%
+
+Total Non-Promoter Holding: 1,75,000 shares (35.00%)
+
+TOTAL SHAREHOLDING: 5,00,000 shares (100.00%)
+
+DETAILS OF SHARES HELD BY TOP 10 SHAREHOLDERS:
+
+Sl.  Shareholder Name              Category          Shares    Percentage
+No.
+1.   Rahul Sharma                  Promoter         150,000    30.00%
+2.   Priya Mehta                   Promoter         125,000    25.00%
+3.   Accel India Ventures II       Investor          75,000    15.00%
+4.   Sequoia Capital India         Investor          50,000    10.00%
+5.   Sharma Family Trust           Promoter Group    50,000    10.00%
+6.   Kavita Iyer                   Director          15,000     3.00%
+7.   Vikram Patel                  Employee          15,000     3.00%
+8.   Sneha Reddy                   Employee          10,000     2.00%
+9.   Arun Kumar                    Director          10,000     2.00%
+
+CHANGES IN SHAREHOLDING DURING FY 2023-24:
+
+Date        Shareholder             Transaction  Shares    Cumulative  %
+01/04/2023  Opening Balance         -            450,000   450,000     90.00%
+15/08/2023  Accel India Ventures    Buy          50,000    500,000    100.00%
+            (Private Placement)
+15/11/2023  Employee Stock Options  Allotment    50,000    550,000    110.00%
+            (ESOP Exercise)
+15/12/2023  Share Buyback           Buyback     (50,000)   500,000    100.00%
+            (from market)
+
+PLEDGE/ENCUMBRANCE DETAILS:
+As on 31st March 2024, no shares are pledged or encumbered.
+
+LOCK-IN DETAILS:
+- Shares held by Accel India Ventures II are under lock-in till 15/08/2025
+- Shares allotted under ESOP are under lock-in for 1 year from vesting date
+
+UNPAID DIVIDEND:
+No unpaid or unclaimed dividend as on 31st March 2024.
+
+DEMAT/PHYSICAL HOLDING:
+
+Mode                    Number of Shares    Percentage
+Demat (NSDL)                   475,000         95.00%
+Demat (CDSL)                    25,000          5.00%
+Physical                             0          0.00%
+Total                          500,000        100.00%
+
+TRANSFER RESTRICTIONS:
+As per Articles of Association, shares are subject to Right of First Refusal (ROFR) in favor of existing shareholders.
+
+CERTIFICATION:
+This shareholding pattern has been verified from the Register of Members maintained as per Section 88 of the Companies Act, 2013 and records with the Depositories (NSDL & CDSL).
+
+For TechVista Solutions Private Limited
+
+_________________________
+Anjali Nair
+Company Secretary
+ACS: 45678
+Date: 31/03/2024
+
+Registered Office:
+No. 42, 3rd Floor, Prestige Tech Park
+Outer Ring Road, Marathahalli
+Bengaluru - 560037, Karnataka
+
+Notes:
+1. All shares carry equal voting rights (one share = one vote)
+2. No differential voting rights or preference shares issued
+3. Company is in compliance with Section 90 of Companies Act, 2013 (Declaration of Beneficial Interest)
