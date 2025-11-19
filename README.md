@@ -83,6 +83,34 @@ pip install -e .
 
 ## Quick Start
 
+### Option 1: Web Interface (Recommended)
+
+The easiest way to use Lawdit is through the web interface:
+
+```bash
+# Install dependencies
+make install-dev
+
+# Launch web interface
+lawdit-web
+# Or: make web
+```
+
+Then navigate to `http://localhost:8501` in your browser.
+
+The web interface provides:
+- 🔧 Interactive configuration management
+- 📥 Visual document indexing with progress tracking
+- 🔍 Guided analysis workflow
+- 📊 Interactive results visualization
+- 📄 Easy report downloads
+
+**See [WEB_INTERFACE_GUIDE.md](WEB_INTERFACE_GUIDE.md) for detailed instructions.**
+
+---
+
+### Option 2: Command Line Interface
+
 ### 1. Configure Environment
 
 Create a `.env` file from the template:

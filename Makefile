@@ -101,6 +101,14 @@ analyze: ## Run legal analysis (requires .env configuration)
 	@echo "$(BLUE)Running legal analysis...$(NC)"
 	lawdit-analyze --index ./data_room_index.txt
 
+web: ## Launch Streamlit web interface
+	@echo "$(BLUE)Launching Lawdit web interface...$(NC)"
+	./run_web.sh
+
+web-dev: ## Launch web interface in development mode
+	@echo "$(BLUE)Launching web interface (dev mode)...$(NC)"
+	streamlit run src/lawdit/web/app.py --server.runOnSave=true
+
 check-deps: ## Check for outdated dependencies
 	@echo "$(BLUE)Checking for outdated dependencies...$(NC)"
 	pip list --outdated

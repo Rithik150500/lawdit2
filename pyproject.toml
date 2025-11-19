@@ -57,6 +57,7 @@ dev = [
 [project.scripts]
 lawdit-index = "lawdit.indexer.cli:main"
 lawdit-analyze = "lawdit.agents.cli:main"
+lawdit-web = "lawdit.web.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
