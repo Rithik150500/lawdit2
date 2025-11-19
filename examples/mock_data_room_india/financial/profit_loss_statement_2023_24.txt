@@ -1,0 +1,158 @@
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+CIN: U72900KA2020PTC135246
+
+STATEMENT OF PROFIT AND LOSS FOR THE YEAR ENDED 31ST MARCH 2024
+(Amount in ₹)
+
+PARTICULARS                                    Note No.    Year Ended     Year Ended
+                                                        31-Mar-2024    31-Mar-2023
+
+I. REVENUE FROM OPERATIONS
+
+   Revenue from Software Development                    285,000,000    215,000,000
+   Revenue from IT Services                             125,000,000     95,000,000
+   Revenue from AMC/Support                              45,000,000     35,000,000
+
+   Total Revenue from Operations                  21    455,000,000    345,000,000
+
+II. OTHER INCOME                                  22      7,500,000      5,200,000
+
+III. TOTAL REVENUE (I + II)                             462,500,000    350,200,000
+
+IV. EXPENSES
+
+    Employee Benefits Expense                     23    245,000,000    185,000,000
+    Finance Costs                                 24     12,500,000      9,800,000
+    Depreciation and Amortization                 25     18,000,000     15,500,000
+    Other Expenses                                26     99,500,000     78,900,000
+
+    Total Expenses (IV)                                 375,000,000    289,200,000
+
+V. PROFIT BEFORE TAX (III - IV)                          87,500,000     61,000,000
+
+VI. TAX EXPENSE
+    (1) Current Tax                                      22,000,000     15,500,000
+    (2) Deferred Tax                                     (1,250,000)      (800,000)
+    (3) Tax relating to earlier years                       250,000        150,000
+
+    Total Tax Expense                                    21,000,000     14,850,000
+
+VII. PROFIT AFTER TAX (V - VI)                           66,500,000     46,150,000
+
+VIII. EARNINGS PER SHARE (EPS)
+     Basic EPS (Face Value ₹100)                              133.00          103.00
+     Diluted EPS                                              128.50           99.80
+
+NOTES TO PROFIT & LOSS STATEMENT:
+
+Note 21 - REVENUE FROM OPERATIONS (Detailed Breakup)
+
+A. By Service Line:
+   Custom Software Development                          180,000,000    140,000,000
+   Product Engineering Services                          85,000,000     60,000,000
+   Mobile App Development                                45,000,000     32,000,000
+   Cloud Services & Migration                            40,000,000     28,000,000
+   Data Analytics & AI Solutions                         35,000,000     25,000,000
+   IT Consulting                                         25,000,000     20,000,000
+   Annual Maintenance Contracts                          45,000,000     35,000,000
+   Other Services                                             5,000      5,000,000
+                                                        455,000,000    345,000,000
+
+B. By Geography:
+   India                                                275,000,000    210,000,000
+   United States                                        120,000,000     90,000,000
+   Europe                                                40,000,000     30,000,000
+   Asia-Pacific (excl. India)                           15,000,000     12,000,000
+   Rest of World                                         5,000,000      3,000,000
+                                                        455,000,000    345,000,000
+
+C. By Customer Segment:
+   Enterprise (Fortune 500)                             185,000,000    140,000,000
+   Mid-Market Companies                                 165,000,000    125,000,000
+   Startups & SMEs                                       85,000,000     65,000,000
+   Government & PSUs                                     20,000,000     15,000,000
+                                                        455,000,000    345,000,000
+
+Note 22 - OTHER INCOME
+   Interest on Fixed Deposits                             3,500,000      2,800,000
+   Interest on Income Tax Refund                            250,000        180,000
+   Dividend Income from Investments                         500,000        350,000
+   Foreign Exchange Gain (Net)                            1,800,000      1,200,000
+   Profit on Sale of Fixed Assets                           450,000        320,000
+   Miscellaneous Income                                   1,000,000        350,000
+                                                          7,500,000      5,200,000
+
+Note 23 - EMPLOYEE BENEFITS EXPENSE
+   Salaries and Wages                                   210,000,000    160,000,000
+   Contribution to Provident Fund                        12,500,000      9,500,000
+   Contribution to ESI                                    1,500,000      1,200,000
+   Employee Stock Option Expense (ESOP)                   5,000,000      3,500,000
+   Gratuity Expense                                       3,000,000      2,300,000
+   Staff Welfare Expenses                                13,000,000      8,500,000
+                                                        245,000,000    185,000,000
+
+   Average Number of Employees:                                 485            380
+
+Note 24 - FINANCE COSTS
+   Interest on Term Loans                                 7,500,000      6,200,000
+   Interest on Working Capital Loans                      3,500,000      2,800,000
+   Interest on Debentures                                   750,000        600,000
+   Bank Charges and Commission                              750,000        200,000
+                                                         12,500,000      9,800,000
+
+Note 25 - DEPRECIATION AND AMORTIZATION
+   Depreciation on Tangible Assets                       12,000,000     10,500,000
+   Amortization of Intangible Assets                      6,000,000      5,000,000
+                                                         18,000,000     15,500,000
+
+Note 26 - OTHER EXPENSES
+   Rent and Lease Expenses                               18,000,000     14,500,000
+   Electricity and Utilities                              5,500,000      4,200,000
+   Repairs and Maintenance                                4,500,000      3,800,000
+   Communication Expenses                                 3,500,000      2,900,000
+   Traveling and Conveyance                              12,000,000      9,500,000
+   Legal and Professional Fees                            8,500,000      6,800,000
+   Auditor's Remuneration                                   850,000        650,000
+   Software Subscriptions & Licenses                      9,500,000      7,200,000
+   Marketing and Business Development                    15,000,000     12,000,000
+   Insurance Premium                                      2,500,000      2,100,000
+   Recruitment and Training                               4,500,000      3,500,000
+   Office Expenses                                        3,200,000      2,600,000
+   CSR Expenditure                                        1,750,000      1,220,000
+   Provision for Doubtful Debts                           2,500,000      1,800,000
+   Foreign Exchange Loss                                  1,200,000        950,000
+   Miscellaneous Expenses                                 6,500,000      5,180,000
+                                                         99,500,000     78,900,000
+
+AUDITOR'S REMUNERATION (included in Note 26):
+   As Auditor - Statutory Audit                            650,000        500,000
+   Tax Audit                                               100,000         80,000
+   Other Services (Certification)                           50,000         40,000
+   Reimbursement of Expenses                                50,000         30,000
+                                                            850,000        650,000
+
+KEY FINANCIAL RATIOS:
+
+Particulars                                         2023-24        2022-23
+Revenue Growth (%)                                    31.88%         28.50%
+EBITDA Margin (%)                                     22.86%         21.83%
+Net Profit Margin (%)                                 14.62%         13.18%
+Return on Equity (ROE) (%)                            29.69%         26.37%
+Return on Assets (ROA) (%)                            18.68%         16.78%
+Debt-to-Equity Ratio                                   0.27           0.25
+Current Ratio                                          2.67           2.65
+Interest Coverage Ratio                                7.00           6.22
+
+For SRINIVASAN & ASSOCIATES              For TECHVISTA SOLUTIONS PRIVATE LIMITED
+Chartered Accountants
+FRN: 012345S
+
+_______________________                  _______________________    _______________________
+CA Venkat Srinivasan                     Rahul Sharma              Suresh Reddy
+Partner                                  Managing Director         Chief Financial Officer
+M.No.: 123456                           DIN: 08234567
+
+Place: Bengaluru                         _______________________
+Date: 30th April 2024                    Anjali Nair
+                                        Company Secretary
+                                        ACS: 45678

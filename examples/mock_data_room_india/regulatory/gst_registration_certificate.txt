@@ -1,0 +1,172 @@
+GOODS AND SERVICES TAX
+REGISTRATION CERTIFICATE
+
+[Under Section 25 of CGST Act, 2017 and KGST Act, 2017]
+
+CERTIFICATE OF REGISTRATION
+(Issued under Rule 10(2) of the Central Goods and Services Tax Rules, 2017)
+
+1. GSTIN (Goods and Services Tax Identification Number):
+   29AABCT1234F1Z5
+
+2. LEGAL NAME OF THE REGISTERED PERSON:
+   TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+3. TRADE NAME (if any):
+   TechVista Solutions
+
+4. CONSTITUTION OF BUSINESS:
+   Private Limited Company
+
+5. ADDRESS OF PRINCIPAL PLACE OF BUSINESS:
+   No. 42, 3rd Floor, Prestige Tech Park
+   Outer Ring Road, Marathahalli
+   Bengaluru - 560037
+   Karnataka - 29
+
+6. NATURE OF BUSINESS ACTIVITIES AT PRINCIPAL PLACE OF BUSINESS:
+   - Office / Sale Office
+   - Computer programming, consultancy and related activities
+
+7. DATE OF LIABILITY:
+   15th January 2020
+
+8. EFFECTIVE DATE OF REGISTRATION:
+   20th January 2020
+
+9. TYPE OF REGISTRATION:
+   Regular
+
+10. PERIOD OF VALIDITY:
+    Valid from: 20th January 2020
+    Valid till: Unless suspended or cancelled
+
+11. DETAILS OF APPROVING AUTHORITY:
+    Name: Registering Authority
+    Designation: Superintendent (GST)
+    Jurisdiction: Range-5, Bengaluru East Division
+    Office: Office of the Superintendent (GST)
+              Commercial Tax Department
+              Marathahalli Zone, Bengaluru
+              Karnataka - 560037
+
+12. AUTHORIZED SIGNATORY DETAILS:
+
+    Primary Authorized Signatory:
+    Name: Suresh Reddy
+    Designation: Chief Financial Officer
+    Mobile: +91-9876543210
+    Email: [email protected]
+
+    Additional Authorized Signatories:
+    a) Name: Rahul Sharma
+       Designation: Managing Director
+       Mobile: +91-9876543211
+       Email: [email protected]
+
+    b) Name: Anjali Nair
+       Designation: Company Secretary
+       Mobile: +91-9876543212
+       Email: [email protected]
+
+13. PERMANENT ACCOUNT NUMBER (PAN):
+    AABCT1234F
+
+14. GOODS AND SERVICES:
+    Services - Information Technology Software Services
+
+15. ADDITIONAL PLACE(S) OF BUSINESS:
+
+    a) Location: Hyderabad Branch Office
+       Address: Tower B, 5th Floor, Cyber Gateway
+                Madhapur, Hyderabad - 500081
+                Telangana, India
+       Nature of Business: Branch Office - Software Development
+
+16. HSN/SAC CODES:
+    Primary SAC: 998314 - IT Software Services
+                 998315 - IT Consulting Services
+
+17. COMPLIANCE RATING:
+    Rating: Not yet available (Introduced for FY 2021-22 onwards)
+
+18. FILING FREQUENCY:
+    GSTR-1 (Outward Supplies): Monthly
+    GSTR-3B (Summary Return): Monthly
+    GSTR-9 (Annual Return): Annually
+    GSTR-9C (Audit): Annually (if turnover > ₹5 Crores)
+
+19. EXEMPTIONS/SPECIAL PROCEDURES (if any):
+    - Eligible for Letter of Undertaking (LUT) for exports
+    - Eligible for refund of unutilized ITC under inverted duty structure
+
+20. REGISTRATION STATUS:
+    Active
+
+21. LAST AMENDED ON:
+    15th March 2024
+    Amendment Type: Addition of new branch office (Hyderabad)
+
+22. COMPLIANCE HISTORY:
+    - All returns filed on time for FY 2020-21, 2021-22, 2022-23, 2023-24
+    - No notices or show-cause issued
+    - No penalties imposed
+    - GST Audit completed for FY 2022-23 without adverse findings
+
+23. ADDITIONAL INFORMATION:
+    - Aggregate Turnover (FY 2023-24): ₹455,000,000
+    - Liable for GST Audit: Yes (Turnover > ₹5 Crores)
+    - E-Invoice Applicable: Yes (Turnover > ₹5 Crores)
+    - Reverse Charge Mechanism: Not applicable
+
+IMPORTANT NOTES:
+
+1. This certificate is valid subject to the provisions of the CGST Act, 2017 and
+   KGST Act, 2017 and rules made thereunder.
+
+2. This certificate is liable to be cancelled/suspended if the registered person
+   contravenes any provisions of the Act or Rules.
+
+3. Any changes in the registration particulars should be intimated to the department
+   within 15 days through amendment application on GST portal.
+
+4. The registered person is required to display this certificate prominently at the
+   principal place of business and at every additional place of business.
+
+5. This certificate is liable to be withdrawn if it is found to have been obtained
+   by means of fraud, willful misstatement or suppression of facts.
+
+VERIFICATION:
+
+This is a system-generated certificate and does not require physical signature.
+
+Issued on: 20th January 2020
+Last Updated: 15th March 2024
+
+Generated from: www.gst.gov.in
+Reference Number: GST-REG-KAR-2020-123456
+
+---
+
+CONTACT DETAILS:
+
+GST Helpline: 1800-103-4786
+Email: [email protected]
+Website: www.gst.gov.in
+
+Office of the Superintendent (GST)
+Commercial Tax Department, Government of Karnataka
+Marathahalli Zone, Bengaluru - 560037
+Phone: 080-22345678
+
+---
+
+ANNEXURES:
+- Annexure A: Copy of Application for Registration (GST REG-01)
+- Annexure B: Documents submitted (PAN, CIN, Address Proof, Bank Details)
+- Annexure C: Authorization for Authorized Signatories
+- Annexure D: List of HSN/SAC Codes
+
+This is a digitally signed certificate.
+Authenticated by: GST Network (GSTN)
+Digital Signature Applied

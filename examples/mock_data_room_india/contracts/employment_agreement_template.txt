@@ -1,0 +1,252 @@
+EMPLOYMENT AGREEMENT
+
+THIS EMPLOYMENT AGREEMENT ("Agreement") is entered into on this 1st day of April, 2024
+
+BETWEEN:
+
+TECHVISTA SOLUTIONS PRIVATE LIMITED
+A Company incorporated under the Companies Act, 2013
+CIN: U72900KA2020PTC135246
+Having its Registered Office at:
+No. 42, 3rd Floor, Prestige Tech Park, Outer Ring Road, Marathahalli
+Bengaluru - 560037, Karnataka, India
+(hereinafter referred to as the "Company" or "Employer")
+
+AND
+
+Mr. Vikram Patel
+S/o Ramesh Patel
+Residing at: #234, HSR Layout, Sector 2, Bengaluru - 560102
+Email: [email protected]
+Mobile: +91-98765-43210
+PAN: AIJVP2345I
+(hereinafter referred to as the "Employee")
+
+WHEREAS the Company desires to employ the Employee and the Employee desires to accept
+such employment upon the terms and conditions set forth in this Agreement.
+
+NOW THEREFORE, in consideration of the mutual covenants and agreements hereinafter set
+forth and for other good and valuable consideration, the parties agree as follows:
+
+1. EMPLOYMENT
+
+1.1 The Company hereby employs the Employee as "Senior Software Engineer" and the
+    Employee accepts such employment.
+
+1.2 The Employee shall report to the "Engineering Manager" or such other person as
+    the Company may designate from time to time.
+
+1.3 The Employee shall be based at Bengaluru office but may be required to travel or
+    be relocated as per business requirements.
+
+2. TERM OF EMPLOYMENT
+
+2.1 The employment shall commence on 1st April 2024 and shall continue until
+    terminated by either party as per the provisions of this Agreement.
+
+2.2 The Employee shall be on probation for a period of 3 (three) months from the date
+    of joining, which may be extended at the sole discretion of the Company.
+
+3. DUTIES AND RESPONSIBILITIES
+
+3.1 The Employee shall:
+    a) Perform duties related to software development, coding, testing, and deployment
+    b) Work on projects assigned by the Company
+    c) Collaborate with team members and contribute to product development
+    d) Maintain coding standards and documentation
+    e) Participate in code reviews and technical discussions
+    f) Comply with all Company policies, procedures, and work schedules
+
+3.2 The Employee shall devote full time, attention, and skill exclusively to the
+    business of the Company during working hours.
+
+3.3 The Employee shall not engage in any other employment or business during the
+    term of this Agreement without prior written consent of the Company.
+
+4. COMPENSATION AND BENEFITS
+
+4.1 SALARY:
+    The Employee shall be paid a gross annual salary of ₹18,00,000 (Rupees Eighteen
+    Lakhs Only) payable in 12 equal monthly installments of ₹1,50,000 (Rupees One
+    Lakh Fifty Thousand Only).
+
+4.2 SALARY STRUCTURE:
+    Basic Salary:                           ₹ 75,000 per month
+    House Rent Allowance (HRA):            ₹ 37,500 per month
+    Special Allowance:                      ₹ 25,000 per month
+    Performance Bonus (variable):           ₹ 12,500 per month
+    -----------------------------------------------------------
+    Gross Salary:                          ₹1,50,000 per month
+
+4.3 DEDUCTIONS:
+    - Employee Provident Fund (EPF): 12% of Basic
+    - Professional Tax: As applicable
+    - Income Tax (TDS): As per Income Tax Act, 1961
+
+4.4 BENEFITS:
+    a) Medical Insurance: Group health insurance coverage of ₹5,00,000
+    b) Accidental Insurance: Coverage of ₹10,00,000
+    c) Provident Fund: Company contribution of 12% of Basic Salary
+    d) Gratuity: As per Payment of Gratuity Act, 1972
+    e) Leave encashment as per Company policy
+
+4.5 ESOP (Employee Stock Option Plan):
+    The Employee shall be eligible to participate in the Company's ESOP scheme as
+    per the terms and conditions of the scheme, subject to Board approval.
+    Indicative allocation: 500 stock options
+
+4.6 PERFORMANCE BONUS:
+    The Employee shall be eligible for annual performance bonus up to 20% of annual
+    gross salary, subject to achievement of individual and company performance targets.
+
+5. WORKING HOURS AND LEAVE
+
+5.1 WORKING HOURS:
+    Normal working hours are 9:00 AM to 6:00 PM, Monday to Friday, with 1 hour lunch
+    break. The Employee may be required to work additional hours as per project needs.
+
+5.2 LEAVE ENTITLEMENT:
+    a) Earned/Privilege Leave: 21 days per year
+    b) Sick Leave: 7 days per year
+    c) Casual Leave: 7 days per year
+    d) Public Holidays: As per Karnataka State Government calendar
+    e) Maternity/Paternity Leave: As per applicable laws
+
+5.3 Leave accrual and encashment shall be as per Company's Leave Policy.
+
+6. TERMINATION
+
+6.1 TERMINATION BY EMPLOYEE:
+    The Employee may terminate this Agreement by giving 60 (sixty) days' written
+    notice or payment of 60 days' salary in lieu of notice.
+
+6.2 TERMINATION BY COMPANY:
+    The Company may terminate this Agreement by giving 60 (sixty) days' written
+    notice or payment of 60 days' salary in lieu of notice.
+
+6.3 TERMINATION DURING PROBATION:
+    During the probation period, either party may terminate with 15 days' notice.
+
+6.4 TERMINATION FOR CAUSE:
+    The Company may terminate the Employee immediately without notice or payment in
+    lieu of notice for:
+    a) Misconduct, fraud, or dishonesty
+    b) Breach of confidentiality or non-compete obligations
+    c) Willful disobedience or insubordination
+    d) Habitual absence or negligence
+    e) Conviction of criminal offense involving moral turpitude
+
+7. CONFIDENTIALITY
+
+7.1 The Employee acknowledges that during employment, they will have access to
+    confidential and proprietary information including but not limited to:
+    - Source code, algorithms, and technical designs
+    - Business plans, strategies, and financial information
+    - Customer data and contracts
+    - Trade secrets and know-how
+
+7.2 The Employee agrees to:
+    a) Maintain strict confidentiality of all such information
+    b) Not disclose to any third party without authorization
+    c) Not use for personal benefit or benefit of others
+    d) Return all confidential materials upon termination
+
+7.3 This obligation shall survive termination of employment indefinitely.
+
+8. INTELLECTUAL PROPERTY
+
+8.1 All inventions, discoveries, designs, software code, documentation, and other
+    intellectual property created by the Employee during the course of employment
+    shall be the exclusive property of the Company.
+
+8.2 The Employee hereby assigns all rights, title, and interest in such intellectual
+    property to the Company.
+
+8.3 The Employee shall execute all documents necessary to perfect the Company's
+    ownership rights.
+
+9. NON-COMPETE AND NON-SOLICITATION
+
+9.1 During employment and for a period of 12 (twelve) months after termination, the
+    Employee shall not:
+    a) Engage in or be associated with any business competing with the Company
+    b) Solicit or accept business from Company's clients/customers
+    c) Solicit or induce Company's employees to leave employment
+    d) Work for any competitor in similar capacity
+
+9.2 Geographic restriction: India and countries where Company operates
+
+10. CODE OF CONDUCT
+
+10.1 The Employee shall:
+     a) Comply with all Company policies including IT Usage, Anti-Harassment,
+        and Prevention of Sexual Harassment (POSH)
+     b) Maintain professional conduct and business ethics
+     c) Avoid conflicts of interest
+     d) Report any violations of law or Company policy
+
+11. BACKGROUND VERIFICATION
+
+11.1 Employment is subject to satisfactory verification of educational qualifications,
+     employment history, and reference checks.
+
+11.2 Any false information provided shall be grounds for immediate termination.
+
+12. GENERAL PROVISIONS
+
+12.1 ENTIRE AGREEMENT:
+     This Agreement constitutes the entire agreement between the parties and supersedes
+     all prior agreements or understandings.
+
+12.2 AMENDMENTS:
+     Any amendments must be in writing and signed by both parties.
+
+12.3 GOVERNING LAW:
+     This Agreement shall be governed by the laws of India.
+
+12.4 JURISDICTION:
+     Courts at Bengaluru shall have exclusive jurisdiction.
+
+12.5 SEVERABILITY:
+     If any provision is found invalid, the remaining provisions shall remain in effect.
+
+12.6 ASSIGNMENT:
+     This Agreement cannot be assigned by the Employee without Company's consent.
+
+13. ACKNOWLEDGMENT
+
+The Employee acknowledges having read, understood, and agreed to all terms and conditions
+of this Agreement and has received a copy of the same.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement on the day and year first
+written above.
+
+FOR TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+_______________________________
+Name: Priya Mehta
+Designation: Director - Human Resources
+DIN: 08234568
+Date: 01/04/2024
+
+Company Seal
+
+ACCEPTED AND AGREED:
+
+_______________________________
+Vikram Patel
+Employee
+Date: 01/04/2024
+
+WITNESS 1:                              WITNESS 2:
+
+_______________________                 _______________________
+Name: Anil Kumar                        Name: Sneha Reddy
+Designation: HR Manager                 Designation: Team Lead
+Date: 01/04/2024                       Date: 01/04/2024
+
+ANNEXURES:
+- Annexure A: Job Description
+- Annexure B: Company Policies (IT Usage, POSH, Code of Conduct)
+- Annexure C: Employee Handbook
+- Annexure D: ESOP Scheme Document

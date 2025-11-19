@@ -1,0 +1,399 @@
+════════════════════════════════════════════════════════════════════════════════
+EMPLOYEES' PROVIDENT FUND ORGANISATION (EPFO)
+════════════════════════════════════════════════════════════════════════════════
+
+MINISTRY OF LABOUR & EMPLOYMENT
+GOVERNMENT OF INDIA
+
+EMPLOYEES' PROVIDENT FUND & MISCELLANEOUS PROVISIONS ACT, 1952
+REGISTRATION CERTIFICATE
+
+Certificate Number: EPFO/KA/BLR/2020/123456
+
+This is to certify that the establishment mentioned below has been registered under
+the Employees' Provident Fund & Miscellaneous Provisions Act, 1952.
+
+1. ESTABLISHMENT CODE NUMBER:
+   KRNBL00001234000
+
+   Breakdown:
+   - KRN: Karnataka State Code
+   - BL: Bengaluru Region Code
+   - 00001234: Establishment Number
+   - 000: Extension (main establishment)
+
+2. NAME OF THE ESTABLISHMENT:
+   TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+3. ADDRESS OF THE ESTABLISHMENT:
+   No. 42, 3rd Floor, Prestige Tech Park
+   Outer Ring Road, Marathahalli
+   Bengaluru - 560037, Karnataka
+
+4. NATURE OF BUSINESS:
+   Computer programming, consultancy and related activities
+   IT/ITES Services
+
+5. CATEGORY OF ESTABLISHMENT:
+   IT & ITES
+
+6. DATE OF COVERAGE:
+   15th February 2020
+
+7. DATE OF REGISTRATION:
+   20th February 2020
+
+8. EMPLOYER DETAILS:
+
+   Name of Employer: TechVista Solutions Private Limited
+   Corporate ID (CIN): U72900KA2020PTC135246
+   PAN: AABCT1234F
+
+   Authorized Signatory:
+   Name: Suresh Reddy
+   Designation: Chief Financial Officer
+   PAN: ACDSR5678K
+   Mobile: +91-9876543210
+   Email: [email protected]
+
+9. NUMBER OF EMPLOYEES (as on date of registration):
+   Total: 28 employees
+   Eligible for PF: 25 employees (drawing salary up to ₹15,000)
+
+10. CURRENT EMPLOYEE STRENGTH (as of March 2024):
+    Total Employees: 485
+    PF Members: 485
+    Excluded Members: 0
+
+11. APPLICABLE SCHEMES:
+
+    ✓ Employees' Provident Fund Scheme, 1952
+    ✓ Employees' Pension Scheme, 1995
+    ✓ Employees' Deposit Linked Insurance Scheme, 1976
+
+12. CONTRIBUTION RATES:
+
+    Employee Contribution:
+    - EPF: 12% of Basic + DA
+    - EPS: Included in employer contribution
+    - EDLI: Nil (employer pays)
+
+    Employer Contribution:
+    - EPF: 3.67% of Basic + DA
+    - EPS: 8.33% of Basic + DA (max ₹1,250 per month)
+    - EDLI: 0.5% of Basic + DA
+    - Admin Charges: 1.1% of Basic + DA
+    - EDLI Admin: 0.01% of Basic + DA
+    Total Employer: 12% + 1.1% + 0.01% = 13.11%
+
+13. WAGE CEILING:
+    ₹15,000 per month (statutory)
+    Note: Company may opt for higher wages for PF contribution
+
+14. MONTHLY REMITTANCE DETAILS:
+
+    Due Date: 15th of following month
+    Challan Type: Combined Challan
+    Payment Mode: NEFT/RTGS through Unified Portal
+
+    Payment Bank Details:
+    Bank: State Bank of India
+    Branch: EPF Collection Branch
+    Account varies by region
+
+15. MONTHLY RETURNS:
+
+    Electronic Challan cum Return (ECR):
+    - File through Unified EPF Portal
+    - Due: 15th of following month
+    - Format: CSV file upload with employee details
+
+16. ANNUAL RETURNS:
+
+    Form: Annual Return (submitted through portal)
+    Due Date: 30th April each year
+
+17. REGIONAL OFFICE DETAILS:
+
+    Regional PF Commissioner - II
+    Employees' Provident Fund Organisation
+    Kendriya Sadan, 2nd Floor
+    Koramangala, Bengaluru - 560034
+    Karnataka
+
+    Phone: 080-25537832
+    Email: [email protected]
+    Jurisdictional Sub-Regional Office: Bengaluru East
+
+18. COMPLIANCE DETAILS (FY 2023-24):
+
+    Monthly Contributions Deposited:
+    Apr 2023: ₹45,67,890    Deposited on: 14/05/2023
+    May 2023: ₹46,23,450    Deposited on: 12/06/2023
+    Jun 2023: ₹47,12,340    Deposited on: 13/07/2023
+    Jul 2023: ₹48,56,780    Deposited on: 14/08/2023
+    Aug 2023: ₹49,23,450    Deposited on: 13/09/2023
+    Sep 2023: ₹50,45,670    Deposited on: 12/10/2023
+    Oct 2023: ₹51,78,900    Deposited on: 14/11/2023
+    Nov 2023: ₹52,34,560    Deposited on: 13/12/2023
+    Dec 2023: ₹53,67,890    Deposited on: 12/01/2024
+    Jan 2024: ₹54,23,450    Deposited on: 13/02/2024
+    Feb 2024: ₹55,12,340    Deposited on: 14/03/2024
+    Mar 2024: ₹56,45,670    Deposited on: 12/04/2024
+
+    Annual Contribution: ₹6,10,92,390
+    Status: All payments made on time
+    Compliance Rating: Excellent
+
+19. INSPECTIONS:
+
+    Last Inspection: 15th November 2023
+    Inspector: Shri Rajesh Kumar, Enforcement Officer
+    Findings: All records in order, no violations
+
+20. UNIVERSAL ACCOUNT NUMBER (UAN) ACTIVATION:
+
+    Total UANs Generated: 485
+    UANs Activated: 485
+    Aadhaar Seeded: 480 (98.9%)
+
+21. ONLINE SERVICES ENABLED:
+
+    ✓ Unified Portal access for ECR filing
+    ✓ Digital Signature Certificate registered
+    ✓ Auto-calculation of contributions enabled
+    ✓ E-Nomination facility activated for employees
+    ✓ Online PF transfer facility enabled
+    ✓ EDLI claim settlement - online enabled
+
+22. EXEMPTION STATUS:
+
+    Not Exempted (Contributing to EPFO directly)
+    Note: Company may apply for exemption u/s 17 after 3 years
+
+23. IMPORTANT OBLIGATIONS:
+
+    a) Pay EPF contributions by 15th of every month
+    b) File ECR with employee details monthly
+    c) Issue PF numbers to all eligible employees
+    d) Display notices at workplace
+    e) Maintain registers:
+       - Form 2 (Nomination and Declaration)
+       - Form 5 (Combined Challan)
+       - Form 10 (Declaration of Family)
+    f) Facilitate PF withdrawals and transfers
+    g) Submit annual return by 30th April
+
+════════════════════════════════════════════════════════════════════════════════
+EMPLOYEES' STATE INSURANCE CORPORATION (ESIC)
+════════════════════════════════════════════════════════════════════════════════
+
+MINISTRY OF LABOUR & EMPLOYMENT
+GOVERNMENT OF INDIA
+
+EMPLOYEES' STATE INSURANCE ACT, 1948
+REGISTRATION CERTIFICATE
+
+Certificate Number: ESIC/KA/BLR/2020/987654
+
+This is to certify that the establishment mentioned below has been registered under
+the Employees' State Insurance Act, 1948.
+
+1. EMPLOYER CODE NUMBER:
+   29-00-123456-000-0000
+
+   Breakdown:
+   - 29: Karnataka State Code
+   - 00: Regional Office Code (Bengaluru)
+   - 123456: Employer Code
+   - 000: Sub-code
+   - 0000: Extension
+
+2. NAME OF THE EMPLOYER:
+   TECHVISTA SOLUTIONS PRIVATE LIMITED
+
+3. REGISTERED OFFICE ADDRESS:
+   No. 42, 3rd Floor, Prestige Tech Park
+   Outer Ring Road, Marathahalli
+   Bengaluru - 560037, Karnataka
+
+4. NATURE OF INDUSTRY:
+   Computer programming, consultancy and related activities
+   (Non-Seasonal Factory/Establishment)
+
+5. DATE OF COVERAGE:
+   15th February 2020
+
+6. DATE OF REGISTRATION:
+   22nd February 2020
+
+7. EMPLOYER DETAILS:
+
+   Company Name: TechVista Solutions Private Limited
+   CIN: U72900KA2020PTC135246
+   PAN: AABCT1234F
+
+   Authorized Person:
+   Name: Suresh Reddy
+   Designation: Chief Financial Officer
+   Mobile: +91-9876543210
+   Email: [email protected]
+
+8. NUMBER OF EMPLOYEES:
+
+   At the time of registration: 28
+   Current strength (March 2024): 485
+   Covered under ESI: 145 (drawing wages up to ₹21,000)
+
+9. WAGE CEILING FOR COVERAGE:
+   ₹21,000 per month
+
+10. CONTRIBUTION RATES:
+
+    Employee Contribution: 0.75% of wages
+    Employer Contribution: 3.25% of wages
+    Total: 4.00% of wages
+
+11. CONTRIBUTION PAYMENT:
+
+    Due Date: 15th of following month
+    Payment Mode: Online through ESI Portal
+    Challan Generation: Through ESI portal
+
+12. MONTHLY RETURNS:
+
+    Form: Monthly Contribution Return
+    Platform: ESIC Online Portal
+    Due Date: 15th of following month
+
+13. HALF-YEARLY RETURNS:
+
+    Form: Return of Declaration (Form 01)
+    Periods: April-September, October-March
+    Due Dates: 11th November, 11th May
+
+14. BRANCH OFFICE DETAILS:
+
+    ESI Scheme
+    Regional Office, Bengaluru
+    ESIC Building, Rajajinagar
+    Bengaluru - 560010, Karnataka
+
+    Phone: 080-23578900
+    Email: [email protected]
+    Dispensary: ESI Dispensary, Marathahalli (for employees)
+
+15. MEDICAL FACILITIES:
+
+    Tied-up Dispensary: ESI Dispensary, Marathahalli
+    Distance from Office: 2 km
+    Hospital: ESI Hospital, Indiranagar, Bengaluru
+
+    Services Available:
+    - OPD consultation
+    - Pathology services
+    - Medicine dispensing
+    - Maternity benefits
+    - Sickness benefits
+    - Disability benefits
+    - Dependent benefits
+
+16. BENEFITS UNDER ESI SCHEME:
+
+    For Insured Persons (IPs):
+    ✓ Medical benefit for self and family
+    ✓ Sickness benefit (70% of wages for 91 days)
+    ✓ Maternity benefit (100% of wages for 26 weeks)
+    ✓ Disablement benefit (90% of wages)
+    ✓ Dependents' benefit
+    ✓ Funeral expenses (₹15,000)
+    ✓ Vocational rehabilitation
+    ✓ Other benefits as per Act
+
+17. COMPLIANCE STATUS (FY 2023-24):
+
+    Monthly Contributions:
+    Apr 2023: ₹4,56,780     Paid on: 14/05/2023
+    May 2023: ₹4,67,890     Paid on: 13/06/2023
+    Jun 2023: ₹4,78,900     Paid on: 14/07/2023
+    Jul 2023: ₹4,89,120     Paid on: 14/08/2023
+    Aug 2023: ₹5,01,230     Paid on: 13/09/2023
+    Sep 2023: ₹5,12,340     Paid on: 13/10/2023
+    Oct 2023: ₹5,23,450     Paid on: 14/11/2023
+    Nov 2023: ₹5,34,560     Paid on: 13/12/2023
+    Dec 2023: ₹5,45,670     Paid on: 12/01/2024
+    Jan 2024: ₹5,56,780     Paid on: 13/02/2024
+    Feb 2024: ₹5,67,890     Paid on: 14/03/2024
+    Mar 2024: ₹5,78,900     Paid on: 12/04/2024
+
+    Annual Contribution: ₹62,13,510
+    Status: All contributions paid on time
+
+18. INSPECTION DETAILS:
+
+    Last Inspection: 20th October 2023
+    Inspector: Shri Venkatesh, Social Security Officer
+    Report: Satisfactory. All registers maintained properly.
+
+19. EMPLOYEE REGISTRATIONS:
+
+    Total IPs (Insured Persons): 145
+    New registrations in FY 2023-24: 38
+    Deletions (resignations/salary increase): 12
+    Active IPs: 145
+
+20. CLAIMS SETTLED (FY 2023-24):
+
+    Sickness Benefit: 8 claims - Total: ₹2,34,500
+    Maternity Benefit: 5 claims - Total: ₹12,45,000
+    Medical Benefits: Ongoing OPD services
+    Total Benefits Availed: ₹14,79,500
+
+21. IMPORTANT OBLIGATIONS:
+
+    a) Pay ESI contributions by 15th of each month
+    b) File monthly returns with employee details
+    c) File half-yearly returns (Form 01)
+    d) Issue Temporary Identity Cards to new employees
+    e) Assist employees in obtaining Permanent ESI cards
+    f) Display notices and abstracts at workplace
+    g) Maintain registers:
+       - Accident Register
+       - Attendance Register
+       - Wage Register
+       - ESI Register
+    h) Report accidents within 24 hours
+    i) Facilitate medical examinations
+
+22. PENALTIES FOR DEFAULT:
+
+    - Late payment: Interest @ 12% per annum
+    - Non-payment: Imprisonment up to 3 years and/or fine
+    - Non-registration: Fine up to ₹5,000
+
+════════════════════════════════════════════════════════════════════════════════
+
+VERIFICATION:
+
+These registrations can be verified at:
+EPF: www.epfindia.gov.in (Unified Portal)
+ESI: www.esic.in
+
+Issued by respective authorities.
+These are system-generated certificates.
+
+Document References:
+EPF: EPFO-REG-KA-2020-123456
+ESI: ESIC-REG-KA-2020-987654
+
+════════════════════════════════════════════════════════════════════════════════
+
+For queries:
+
+EPF Helpline: 1800-118-005
+EPF Portal: https://unifiedportal-mem.epfindia.gov.in
+
+ESI Helpline: 1800-103-0018
+ESI Portal: https://www.esic.in
+
+════════════════════════════════════════════════════════════════════════════════
