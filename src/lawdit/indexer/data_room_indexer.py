@@ -179,15 +179,10 @@ class DataRoomIndexer:
 
         index_lines = ["# Data Room Index\n"]
 
-        # Group documents by category based on filename patterns
-        # This creates a more organized index structure
-        categories = self._categorize_documents(document_records)
-
-        for category, docs in categories.items():
-            index_lines.append(f"\n## {category}\n")
-            for doc in docs:
-                index_lines.append(f"- **{doc['doc_id']}**: {doc['file_name']}")
-                index_lines.append(f"  Summary: {doc['document_summary']}\n")
+        # List all documents in a simple format
+        for doc in document_records:
+            index_lines.append(f"- **{doc['doc_id']}**: {doc['file_name']}")
+            index_lines.append(f"  Summary: {doc['document_summary']}\n")
 
         index_text = "\n".join(index_lines)
 
@@ -202,78 +197,3 @@ class DataRoomIndexer:
         print(f"Total documents indexed: {len(document_records)}")
 
         return index_text
-
-    def _categorize_documents(self, documents: List[Dict]) -> Dict[str, List[Dict]]:
-        """Categorize documents based on filename patterns.
-
-        This helper method groups documents into categories like contracts,
-        regulatory, financial, etc. based on keywords in their filenames.
-        This makes the index more navigable for the legal analyst.
-        """
-        categories = {
-            "Corporate Documents": [],
-            "Contracts": [],
-            "Regulatory & Compliance": [],
-            "Financial": [],
-            "Legal & Litigation": [],
-            "Intellectual Property": [],
-            "Other": [],
-        }
-
-        # Keywords for categorization
-        category_keywords = {
-            "Corporate Documents": [
-                "incorporation",
-                "bylaws",
-                "minutes",
-                "charter",
-                "articles",
-            ],
-            "Contracts": ["agreement", "contract", "msa", "sow", "purchase", "license"],
-            "Regulatory & Compliance": [
-                "compliance",
-                "regulatory",
-                "license",
-                "permit",
-                "filing",
-                "sec",
-            ],
-            "Financial": [
-                "financial",
-                "audit",
-                "balance",
-                "income",
-                "statement",
-                "budget",
-            ],
-            "Legal & Litigation": [
-                "litigation",
-                "lawsuit",
-                "settlement",
-                "complaint",
-                "legal",
-            ],
-            "Intellectual Property": [
-                "patent",
-                "trademark",
-                "copyright",
-                "ip",
-                "intellectual",
-            ],
-        }
-
-        for doc in documents:
-            filename_lower = doc["file_name"].lower()
-            categorized = False
-
-            for category, keywords in category_keywords.items():
-                if any(keyword in filename_lower for keyword in keywords):
-                    categories[category].append(doc)
-                    categorized = True
-                    break
-
-            if not categorized:
-                categories["Other"].append(doc)
-
-        # Remove empty categories
-        return {k: v for k, v in categories.items() if v}

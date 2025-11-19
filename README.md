@@ -39,6 +39,7 @@ Multi-agent system for comprehensive risk analysis:
 - [poppler-utils](https://poppler.freedesktop.org/) for PDF processing
 - Google Cloud credentials with Drive API access
 - OpenAI API key
+- Tavily API key (for web search functionality)
 
 ### Install poppler-utils
 
@@ -94,6 +95,7 @@ cp .env.example .env
 Edit `.env` with your credentials:
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
+TAVILY_API_KEY=your_tavily_api_key_here
 GOOGLE_CREDENTIALS_PATH=path/to/google-credentials.json
 GOOGLE_DRIVE_FOLDER_ID=your_folder_id_here
 ```
@@ -260,10 +262,11 @@ docker run -it --rm \
 See `.env.example` for all available configuration options:
 
 - `OPENAI_API_KEY`: OpenAI API key (required)
+- `TAVILY_API_KEY`: Tavily API key for web search (required)
 - `GOOGLE_CREDENTIALS_PATH`: Path to Google credentials
 - `GOOGLE_DRIVE_FOLDER_ID`: Folder ID to process
 - `PDF_DPI`: Image quality (72-600, default: 200)
-- `VISION_MODEL`: Model for vision tasks
+- `VISION_MODEL`: Model for vision tasks (default: gpt-5-nano)
 - `ANALYSIS_MODEL`: Model for analysis tasks
 
 ### Advanced Configuration
@@ -281,7 +284,7 @@ settings.max_parallel_processes = 8  # More parallelism
 ## Cost Optimization
 
 - **DPI Settings**: Lower DPI (150-200) reduces costs significantly
-- **Model Selection**: Use GPT-4-Vision for indexing, reserve premium models for analysis
+- **Model Selection**: Use GPT-5-nano for indexing (cost-efficient), reserve premium models for analysis
 - **Parallel Processing**: Process multiple pages concurrently
 - **Caching**: Enable smart caching to avoid reprocessing unchanged documents
 
@@ -340,8 +343,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Built with [OpenAI GPT-4](https://openai.com/)
+- Built with [OpenAI GPT-5](https://openai.com/) (GPT-5-nano for cost-efficient vision tasks)
 - Uses [LangChain](https://github.com/langchain-ai/langchain) and [LangGraph](https://github.com/langchain-ai/langgraph)
+- Web search powered by [Tavily](https://tavily.com/)
 - PDF processing by [pdf2image](https://github.com/Belval/pdf2image)
 - Document generation with [python-docx](https://python-docx.readthedocs.io/)
 
